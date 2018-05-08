@@ -1,6 +1,10 @@
-update=Monday, April 30, 2018 'PMt' 05:50:51 PM
+update=22/05/2015 07:44:53
 version=1
 last_client=kicad
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -25,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../CySat-Motherboard-master
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,7 +60,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=project
-LibName31=ac-dc
-[general]
-version=1

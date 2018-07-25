@@ -226,841 +226,6 @@ F 3 "" H 5250 6900 50  0000 C CNN
 	1    5250 6900
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_02X26 P5
-U 1 1 58E97AAA
-P 14600 2050
-F 0 "P5" H 14600 3400 50  0000 C CNN
-F 1 "CONN_02X26" V 14600 2050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x26_Pitch2.54mm" H 14600 1350 50  0001 C CNN
-F 3 "" H 14600 1350 50  0000 C CNN
-	1    14600 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X26 P6
-U 1 1 58E97B25
-P 16900 2050
-F 0 "P6" H 16900 3400 50  0000 C CNN
-F 1 "CONN_02X26" V 16900 2050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x26_Pitch2.54mm" H 16900 1350 50  0001 C CNN
-F 3 "" H 16900 1350 50  0000 C CNN
-	1    16900 2050
-	1    0    0    -1  
-$EndComp
-Text Label 14050 800  0    49   ~ 0
-GPIO0
-Text Label 14950 800  0    49   ~ 0
-GPIO1
-Text Label 14050 900  0    49   ~ 0
-GPIO2
-Text Label 14950 900  0    49   ~ 0
-GPIO3
-Text Label 13950 1000 0    49   ~ 0
-RADIO_TR
-Text Label 14950 1000 0    49   ~ 0
-RADIO_RR
-Text Label 14050 1100 0    49   ~ 0
-GPIO4
-Text Label 14950 1100 0    49   ~ 0
-GPIO5
-Text Label 14050 1200 0    49   ~ 0
-GPIO6
-Text Label 14950 1200 0    49   ~ 0
-GPIO7
-Text Label 14050 1300 0    49   ~ 0
-GPIO8
-Text Label 14950 1300 0    49   ~ 0
-GPIO9
-Text Label 14000 1400 0    49   ~ 0
-GPIO10
-Text Label 14950 1400 0    49   ~ 0
-GPIO11
-Text Label 14000 1500 0    49   ~ 0
-GPIO12
-Text Label 14950 1500 0    49   ~ 0
-GPIO13
-Text Label 13900 1600 0    49   ~ 0
-RADIO_RX
-Text Label 13900 1700 0    49   ~ 0
-I2C2_SDA
-Text Label 13800 1800 0    49   ~ 0
-SYS_SPI_SCK
-Text Label 13750 1900 0    49   ~ 0
-SYS_SPI_MOSI
-Text Label 13900 2200 0    49   ~ 0
-SYS_RESET
-Text Label 14000 2400 0    49   ~ 0
-SGPIO7
-Text Label 14000 2500 0    49   ~ 0
-SGPIO9
-Text Label 13950 2600 0    49   ~ 0
-SGPIO11
-Text Label 13950 2700 0    49   ~ 0
-SGPIO13
-Text Label 13950 2800 0    49   ~ 0
-SYS_SDA
-Text Label 13950 2900 0    49   ~ 0
-SYS_SCL
-Text Label 13850 3100 0    49   ~ 0
-NBUFEN_PRI
-Text Label 13900 3200 0    49   ~ 0
-I2C2_SDA
-Text Label 13900 3300 0    49   ~ 0
-I2C2_SCL
-Text Label 14950 1600 0    49   ~ 0
-RADIO_TX
-Text Label 14950 1700 0    49   ~ 0
-I2C2_SCL
-Text Label 14950 1800 0    49   ~ 0
-SYS_SPI_MISO
-Text Label 14950 1900 0    49   ~ 0
-SYS_SPL_NSS
-Text Label 14950 2400 0    49   ~ 0
-SGPIO8
-Text Label 14950 2500 0    49   ~ 0
-SGPIO10
-Text Label 14950 2600 0    49   ~ 0
-SGPIO12
-Text Label 14950 2700 0    49   ~ 0
-SGPIO14
-Text Label 14950 3100 0    49   ~ 0
-NBUFEN_SEC
-Text Label 14950 3200 0    49   ~ 0
-SGPIO5
-Text Label 14950 3300 0    49   ~ 0
-SGPIO6
-Text Label 16300 800  0    49   ~ 0
-SGPIO0
-Text Label 16300 900  0    49   ~ 0
-SGPIO2
-Text Label 16250 1000 0    49   ~ 0
-I2C3_SDA
-Text Label 16300 1100 0    49   ~ 0
-SGPIO4
-Text Label 17250 800  0    49   ~ 0
-SGPIO1
-Text Label 17250 900  0    49   ~ 0
-SGPIO3
-Text Label 17250 1000 0    49   ~ 0
-I2C3_SCL
-Text Label 16250 3200 0    49   ~ 0
-SPI2_NSS
-Text Label 16200 3300 0    49   ~ 0
-SPI2_MISO
-Text Label 17250 3200 0    49   ~ 0
-SPI2_SCK
-Text Label 17250 3300 0    49   ~ 0
-SPI2_MOSI
-Wire Wire Line
-	16350 1200 16650 1200
-Wire Wire Line
-	16600 1200 16600 3100
-Wire Wire Line
-	16600 3100 16650 3100
-Wire Wire Line
-	16650 1600 16600 1600
-Connection ~ 16600 1600
-Wire Wire Line
-	16650 1800 16600 1800
-Connection ~ 16600 1800
-Wire Wire Line
-	16650 2200 16600 2200
-Connection ~ 16600 2200
-$Comp
-L GND #PWR22
-U 1 1 58E98BFA
-P 16350 1350
-F 0 "#PWR22" H 16350 1100 50  0001 C CNN
-F 1 "GND" H 16350 1200 50  0000 C CNN
-F 2 "" H 16350 1350 50  0000 C CNN
-F 3 "" H 16350 1350 50  0000 C CNN
-	1    16350 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR23
-U 1 1 58E98C22
-P 17550 1550
-F 0 "#PWR23" H 17550 1300 50  0001 C CNN
-F 1 "GND" H 17550 1400 50  0000 C CNN
-F 2 "" H 17550 1550 50  0000 C CNN
-F 3 "" H 17550 1550 50  0000 C CNN
-	1    17550 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16350 1200 16350 1350
-Connection ~ 16600 1200
-Wire Wire Line
-	17150 1400 17550 1400
-Wire Wire Line
-	17550 1400 17550 1550
-Wire Wire Line
-	17350 3100 17150 3100
-Wire Wire Line
-	17350 1400 17350 3100
-Connection ~ 17350 1400
-Wire Wire Line
-	17150 1800 17350 1800
-Connection ~ 17350 1800
-Wire Wire Line
-	17150 2200 17350 2200
-Connection ~ 17350 2200
-Wire Wire Line
-	17150 2300 17350 2300
-Connection ~ 17350 2300
-$Comp
-L +3.3V #PWR20
-U 1 1 58E998E9
-P 16050 2100
-F 0 "#PWR20" H 16050 1950 50  0001 C CNN
-F 1 "+3.3V" H 16050 2240 50  0000 C CNN
-F 2 "" H 16050 2100 50  0000 C CNN
-F 3 "" H 16050 2100 50  0000 C CNN
-	1    16050 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR25
-U 1 1 58E99911
-P 17800 2100
-F 0 "#PWR25" H 17800 1950 50  0001 C CNN
-F 1 "+3.3V" H 17800 2240 50  0000 C CNN
-F 2 "" H 17800 2100 50  0000 C CNN
-F 3 "" H 17800 2100 50  0000 C CNN
-	1    17800 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR21
-U 1 1 58E99939
-P 16250 2000
-F 0 "#PWR21" H 16250 1850 50  0001 C CNN
-F 1 "+5V" H 16250 2140 50  0000 C CNN
-F 2 "" H 16250 2000 50  0000 C CNN
-F 3 "" H 16250 2000 50  0000 C CNN
-	1    16250 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR24
-U 1 1 58E99961
-P 17600 2000
-F 0 "#PWR24" H 17600 1850 50  0001 C CNN
-F 1 "+5V" H 17600 2140 50  0000 C CNN
-F 2 "" H 17600 2000 50  0000 C CNN
-F 3 "" H 17600 2000 50  0000 C CNN
-	1    17600 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16650 2000 16250 2000
-Wire Wire Line
-	16650 2100 16050 2100
-Wire Wire Line
-	17150 2000 17600 2000
-Wire Wire Line
-	17150 2100 17800 2100
-Wire Wire Line
-	14350 800  14050 800 
-Wire Wire Line
-	14350 900  14050 900 
-Wire Wire Line
-	14350 1000 13950 1000
-Wire Wire Line
-	14350 1100 14050 1100
-Wire Wire Line
-	14350 1200 14050 1200
-Wire Wire Line
-	14350 1300 14050 1300
-Wire Wire Line
-	14350 1400 14000 1400
-Wire Wire Line
-	14350 1500 14000 1500
-Wire Wire Line
-	14350 1600 13900 1600
-Wire Wire Line
-	14350 1700 13900 1700
-Wire Wire Line
-	14350 1800 13800 1800
-Wire Wire Line
-	14350 1900 13750 1900
-Wire Wire Line
-	14350 2200 13900 2200
-Wire Wire Line
-	14350 2400 14000 2400
-Wire Wire Line
-	14350 2500 14000 2500
-Wire Wire Line
-	14350 2600 13950 2600
-Wire Wire Line
-	14350 2700 13950 2700
-Wire Wire Line
-	14350 2800 13950 2800
-Wire Wire Line
-	14350 2900 13950 2900
-Wire Wire Line
-	14350 3100 13850 3100
-Wire Wire Line
-	14350 3200 13900 3200
-Wire Wire Line
-	14350 3300 13900 3300
-Wire Wire Line
-	14850 3300 14950 3300
-Wire Wire Line
-	14850 3200 14950 3200
-Wire Wire Line
-	14850 3100 14950 3100
-Wire Wire Line
-	14850 2700 14950 2700
-Wire Wire Line
-	14850 2600 14950 2600
-Wire Wire Line
-	14850 2500 14950 2500
-Wire Wire Line
-	14850 2400 14950 2400
-Wire Wire Line
-	14850 1900 14950 1900
-Wire Wire Line
-	14850 1800 14950 1800
-Wire Wire Line
-	14850 1700 14950 1700
-Wire Wire Line
-	14850 1600 14950 1600
-Wire Wire Line
-	14850 1500 14950 1500
-Wire Wire Line
-	14850 1400 14950 1400
-Wire Wire Line
-	14850 1300 14950 1300
-Wire Wire Line
-	14850 1200 14950 1200
-Wire Wire Line
-	14850 1100 14950 1100
-Wire Wire Line
-	14850 1000 14950 1000
-Wire Wire Line
-	14850 900  14950 900 
-Wire Wire Line
-	14850 800  14950 800 
-Wire Wire Line
-	16650 800  16300 800 
-Wire Wire Line
-	16650 900  16300 900 
-Wire Wire Line
-	16650 1000 16250 1000
-Wire Wire Line
-	16650 1100 16300 1100
-Wire Wire Line
-	17150 800  17250 800 
-Wire Wire Line
-	17150 900  17250 900 
-Wire Wire Line
-	17150 1000 17250 1000
-Wire Wire Line
-	16650 3200 16250 3200
-Wire Wire Line
-	16650 3300 16200 3300
-Wire Wire Line
-	17150 3300 17250 3300
-Wire Wire Line
-	17150 3200 17250 3200
-$Comp
-L CONN_02X30 P7
-U 1 1 5B15A0EA
-P 14600 5650
-F 0 "P7" H 14600 7200 50  0000 C CNN
-F 1 "CONN_02X30" V 14600 5650 50  0000 C CNN
-F 2 "Connectors_Samtec:MECF-30-0_-NP-L-DV_Edge" H 14600 4050 50  0000 C TNN
-F 3 "" H 14600 5150 50  0000 C CNN
-	1    14600 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR15
-U 1 1 5B15A1CD
-P 15600 4400
-F 0 "#PWR15" H 15600 4250 50  0001 C CNN
-F 1 "+12V" H 15600 4540 50  0000 C CNN
-F 2 "" H 15600 4400 50  0000 C CNN
-F 3 "" H 15600 4400 50  0000 C CNN
-	1    15600 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR17
-U 1 1 5B15A218
-P 15600 7100
-F 0 "#PWR17" H 15600 6950 50  0001 C CNN
-F 1 "+12V" H 15600 7240 50  0000 C CNN
-F 2 "" H 15600 7100 50  0000 C CNN
-F 3 "" H 15600 7100 50  0000 C CNN
-	1    15600 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR12
-U 1 1 5B15A24D
-P 13800 4300
-F 0 "#PWR12" H 13800 4150 50  0001 C CNN
-F 1 "+5V" H 13800 4440 50  0000 C CNN
-F 2 "" H 13800 4300 50  0000 C CNN
-F 3 "" H 13800 4300 50  0000 C CNN
-	1    13800 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR13
-U 1 1 5B15A282
-P 13800 7000
-F 0 "#PWR13" H 13800 6850 50  0001 C CNN
-F 1 "+5V" H 13800 7140 50  0000 C CNN
-F 2 "" H 13800 7000 50  0000 C CNN
-F 3 "" H 13800 7000 50  0000 C CNN
-	1    13800 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR14
-U 1 1 5B15A2B7
-P 15300 4200
-F 0 "#PWR14" H 15300 4050 50  0001 C CNN
-F 1 "+3.3V" H 15300 4340 50  0000 C CNN
-F 2 "" H 15300 4200 50  0000 C CNN
-F 3 "" H 15300 4200 50  0000 C CNN
-	1    15300 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR9
-U 1 1 5B15A30D
-P 13650 4700
-F 0 "#PWR9" H 13650 4550 50  0001 C CNN
-F 1 "+3.3V" H 13650 4840 50  0000 C CNN
-F 2 "" H 13650 4700 50  0000 C CNN
-F 3 "" H 13650 4700 50  0000 C CNN
-	1    13650 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR16
-U 1 1 5B15A368
-P 15600 4800
-F 0 "#PWR16" H 15600 4650 50  0001 C CNN
-F 1 "+3.3V" H 15600 4940 50  0000 C CNN
-F 2 "" H 15600 4800 50  0000 C CNN
-F 3 "" H 15600 4800 50  0000 C CNN
-	1    15600 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR10
-U 1 1 5B15A39D
-P 13650 5800
-F 0 "#PWR10" H 13650 5650 50  0001 C CNN
-F 1 "+3.3V" H 13650 5940 50  0000 C CNN
-F 2 "" H 13650 5800 50  0000 C CNN
-F 3 "" H 13650 5800 50  0000 C CNN
-	1    13650 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR18
-U 1 1 5B15A3D2
-P 15650 5900
-F 0 "#PWR18" H 15650 5750 50  0001 C CNN
-F 1 "+3.3V" H 15650 6040 50  0000 C CNN
-F 2 "" H 15650 5900 50  0000 C CNN
-F 3 "" H 15650 5900 50  0000 C CNN
-	1    15650 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR11
-U 1 1 5B15A407
-P 13650 6800
-F 0 "#PWR11" H 13650 6650 50  0001 C CNN
-F 1 "+3.3V" H 13650 6940 50  0000 C CNN
-F 2 "" H 13650 6800 50  0000 C CNN
-F 3 "" H 13650 6800 50  0000 C CNN
-	1    13650 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR19
-U 1 1 5B15A43C
-P 15700 6900
-F 0 "#PWR19" H 15700 6750 50  0001 C CNN
-F 1 "+3.3V" H 15700 7040 50  0000 C CNN
-F 2 "" H 15700 6900 50  0000 C CNN
-F 3 "" H 15700 6900 50  0000 C CNN
-	1    15700 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14850 4200 15300 4200
-Wire Wire Line
-	14350 4300 13800 4300
-Wire Wire Line
-	14850 4400 15600 4400
-Wire Wire Line
-	13650 4700 14350 4700
-Wire Wire Line
-	14850 4800 15600 4800
-Wire Wire Line
-	13650 5800 14350 5800
-Wire Wire Line
-	14850 5900 15650 5900
-Wire Wire Line
-	13650 6800 14350 6800
-Wire Wire Line
-	14850 6900 15700 6900
-Wire Wire Line
-	13800 7000 14350 7000
-Wire Wire Line
-	14850 7100 15600 7100
-Text Label 14050 4200 0    60   ~ 0
-GND
-Text Label 14950 4300 0    60   ~ 0
-GND
-Text Label 14050 4400 0    60   ~ 0
-GND
-Text Label 14950 4500 0    60   ~ 0
-GND
-Text Label 14050 4600 0    60   ~ 0
-GND
-Text Label 14950 4700 0    60   ~ 0
-GND
-Text Label 14050 4800 0    60   ~ 0
-GND
-Text Label 14950 4900 0    60   ~ 0
-GND
-Text Label 14050 5000 0    60   ~ 0
-GND
-Text Label 14950 5100 0    60   ~ 0
-GND
-Text Label 14050 5300 0    60   ~ 0
-GND
-Text Label 14950 5400 0    60   ~ 0
-GND
-Text Label 14050 5500 0    60   ~ 0
-GND
-Text Label 14950 5600 0    60   ~ 0
-GND
-Text Label 14050 5700 0    60   ~ 0
-GND
-Text Label 14950 5800 0    60   ~ 0
-GND
-Text Label 14050 5900 0    60   ~ 0
-GND
-Text Label 14950 6000 0    60   ~ 0
-GND
-Text Label 14050 6100 0    60   ~ 0
-GND
-Text Label 14950 6200 0    60   ~ 0
-GND
-Text Label 14950 6400 0    60   ~ 0
-GND
-Text Label 14050 6500 0    60   ~ 0
-GND
-Text Label 14950 6600 0    60   ~ 0
-GND
-Text Label 14050 6700 0    60   ~ 0
-GND
-Text Label 14950 6800 0    60   ~ 0
-GND
-Text Label 14050 6900 0    60   ~ 0
-GND
-Text Label 14950 7000 0    60   ~ 0
-GND
-Text Label 14050 7100 0    60   ~ 0
-GND
-Text Label 13900 4500 0    60   ~ 0
-SYS_SCL
-Text Label 14950 4600 0    60   ~ 0
-SYS_SDA
-Text Label 13850 4900 0    60   ~ 0
-SPI2_MISO
-Text Label 14950 5000 0    60   ~ 0
-SPI2_MOSI
-Text Label 13850 5100 0    60   ~ 0
-SPI2_SCK
-Text Label 14950 5300 0    60   ~ 0
-SGPIO_0
-Text Label 13900 5400 0    60   ~ 0
-SGPIO_1
-Text Label 14950 5500 0    60   ~ 0
-SGPIO_2
-Text Label 13900 5600 0    60   ~ 0
-SGPIO_3
-Text Label 14950 5700 0    60   ~ 0
-SGPIO_4
-Text Label 13850 6000 0    60   ~ 0
-SYS_MISO
-Text Label 14950 6100 0    60   ~ 0
-SYS_MOSI
-Text Label 13900 6200 0    60   ~ 0
-SYS_SCK
-Text Label 13950 6400 0    60   ~ 0
-GPIO_8
-Text Label 14950 6500 0    60   ~ 0
-GPIO_9
-Text Label 13900 6600 0    60   ~ 0
-GPIO_10
-Text Label 14950 6700 0    60   ~ 0
-GPIO_11
-Wire Wire Line
-	14050 4200 14350 4200
-Wire Wire Line
-	14850 4300 14950 4300
-Wire Wire Line
-	14050 4400 14350 4400
-Wire Wire Line
-	13900 4500 14350 4500
-Wire Wire Line
-	14050 4600 14350 4600
-Wire Wire Line
-	14850 4500 14950 4500
-Wire Wire Line
-	14850 4600 14950 4600
-Wire Wire Line
-	14850 4700 14950 4700
-Wire Wire Line
-	14050 4800 14350 4800
-Wire Wire Line
-	13850 4900 14350 4900
-Wire Wire Line
-	14050 5000 14350 5000
-Wire Wire Line
-	13850 5100 14350 5100
-Wire Wire Line
-	14850 5100 14950 5100
-Wire Wire Line
-	14050 5300 14350 5300
-Wire Wire Line
-	14850 5300 14950 5300
-Wire Wire Line
-	13900 5400 14350 5400
-Wire Wire Line
-	14850 5400 14950 5400
-Wire Wire Line
-	14050 5500 14350 5500
-Wire Wire Line
-	14850 5500 14950 5500
-Wire Wire Line
-	14950 5600 14850 5600
-Wire Wire Line
-	14350 5600 13900 5600
-Wire Wire Line
-	14050 5700 14350 5700
-Wire Wire Line
-	14850 5700 14950 5700
-Wire Wire Line
-	14950 5800 14850 5800
-Wire Wire Line
-	14050 5900 14350 5900
-Wire Wire Line
-	13850 6000 14350 6000
-Wire Wire Line
-	14850 6000 14950 6000
-Wire Wire Line
-	14950 6200 14850 6200
-Wire Wire Line
-	13900 6300 14350 6300
-Wire Wire Line
-	14850 6300 14950 6300
-Wire Wire Line
-	13950 6400 14350 6400
-Wire Wire Line
-	14850 6400 14950 6400
-Wire Wire Line
-	14050 6500 14350 6500
-Wire Wire Line
-	14850 6500 14950 6500
-Wire Wire Line
-	14950 6600 14850 6600
-Wire Wire Line
-	14350 6600 13900 6600
-Wire Wire Line
-	14050 6700 14350 6700
-Wire Wire Line
-	14850 6700 14950 6700
-Wire Wire Line
-	14950 6800 14850 6800
-Wire Wire Line
-	14350 6900 14050 6900
-Wire Wire Line
-	14850 7000 14950 7000
-Wire Wire Line
-	14350 7100 14050 7100
-Text Label 13900 6300 0    60   ~ 0
-GND
-Text Label 14950 6300 0    60   ~ 0
-GPIO_7
-Wire Wire Line
-	13900 6200 14350 6200
-Wire Wire Line
-	14050 6100 14350 6100
-Wire Wire Line
-	14850 6100 14950 6100
-Wire Wire Line
-	14850 4900 14950 4900
-Wire Wire Line
-	14850 5000 14950 5000
-$Comp
-L Conn_01x40 J1
-U 1 1 5B5658AC
-P 3900 11100
-F 0 "J1" H 3900 13100 50  0000 C CNN
-F 1 "Conn_01x40" H 3900 9000 50  0000 C CNN
-F 2 "" H 3900 11100 50  0001 C CNN
-F 3 "" H 3900 11100 50  0001 C CNN
-	1    3900 11100
-	1    0    0    -1  
-$EndComp
-Text Label 3050 9200 0    49   ~ 0
-1V0_AVCC
-Text Label 2900 9300 0    49   ~ 0
-SFP_GBT_TX_P
-Text Label 2900 9400 0    49   ~ 0
-SFP_GBT_TX_N
-Text Label 2900 9500 0    49   ~ 0
-FMC_LA03_P
-Text Label 2900 9600 0    49   ~ 0
-FMC_LA03_N
-Text Label 2900 9700 0    49   ~ 0
-FMC_LA05_P
-Text Label 2900 9800 0    49   ~ 0
-FMC_LA05_N
-Text Label 2900 9900 0    49   ~ 0
-SD1_B_DAT0
-Text Label 2900 10000 0    49   ~ 0
-SD1_B_DAT2
-Text Label 2900 10100 0    49   ~ 0
-SD1_B_CDN
-Text Label 2900 10200 0    49   ~ 0
-SD1_B_CLK
-Text Label 3150 10300 0    49   ~ 0
-VADJ
-Text Label 2900 10400 0    49   ~ 0
-ETH0_PHY_LED0
-Text Label 2950 10500 0    49   ~ 0
-ETH0_MD1_P
-Text Label 2950 10600 0    49   ~ 0
-ETH0_MD1_N
-Text Label 2950 10700 0    49   ~ 0
-ETH0_MD3_P
-Text Label 2950 10800 0    49   ~ 0
-ETH0_MD3_N
-Text Label 2950 11000 0    49   ~ 0
-USB_OTG_ID
-Text Label 2950 11200 0    49   ~ 0
-FMC_LA08_P
-Text Label 2950 11300 0    49   ~ 0
-FMC_LA08_N
-Text Label 2950 11400 0    49   ~ 0
-FMC_LA08_P
-Text Label 2950 11500 0    49   ~ 0
-FMC_LA08_N
-Text Label 2950 11600 0    49   ~ 0
-FMC_LA10_P
-Text Label 2950 11700 0    49   ~ 0
-FMC_LA10_N
-Text Label 2950 11800 0    49   ~ 0
-FMC_LA01_CC_P
-Text Label 2950 11900 0    49   ~ 0
-FMC_LA01_CC_N
-Text Label 2900 12000 0    49   ~ 0
-FMC_CLK0_M2C_P
-Text Label 2900 12100 0    49   ~ 0
-FMC_CLK0_M2C_N
-Text Label 2950 12200 0    49   ~ 0
-FMC_LA13_P
-Text Label 2950 12300 0    49   ~ 0
-FMC_LA13_N
-Wire Wire Line
-	3050 9200 3700 9200
-Wire Wire Line
-	3700 9300 2900 9300
-Wire Wire Line
-	3700 9400 2900 9400
-Wire Wire Line
-	3700 9500 2900 9500
-Wire Wire Line
-	3700 9600 2900 9600
-Wire Wire Line
-	3700 9700 2900 9700
-Wire Wire Line
-	3700 9800 2900 9800
-Wire Wire Line
-	3700 9900 2900 9900
-Wire Wire Line
-	3700 10000 2900 10000
-Wire Wire Line
-	3700 10100 2900 10100
-Wire Wire Line
-	3700 10200 2900 10200
-Wire Wire Line
-	3700 10300 3150 10300
-Wire Wire Line
-	3700 10400 2900 10400
-Wire Wire Line
-	3700 10500 2950 10500
-Wire Wire Line
-	3700 10600 2950 10600
-Wire Wire Line
-	3700 10700 2950 10700
-Wire Wire Line
-	3700 10800 2950 10800
-Wire Wire Line
-	3700 11000 2950 11000
-Wire Wire Line
-	3700 11200 2950 11200
-Wire Wire Line
-	3700 11300 2950 11300
-Wire Wire Line
-	3700 11400 2950 11400
-Wire Wire Line
-	3700 11500 2950 11500
-Wire Wire Line
-	3700 11600 2950 11600
-Wire Wire Line
-	3700 11700 2950 11700
-Wire Wire Line
-	3700 11800 2950 11800
-Wire Wire Line
-	3700 11900 2950 11900
-Wire Wire Line
-	3700 12000 2900 12000
-Wire Wire Line
-	3700 12100 2900 12100
-Wire Wire Line
-	3700 12200 2950 12200
-Wire Wire Line
-	3700 12300 2950 12300
-$Comp
-L GND #PWR?
-U 1 1 5B565C58
-P 3700 10900
-F 0 "#PWR?" H 3700 10650 50  0001 C CNN
-F 1 "GND" H 3700 10750 50  0000 C CNN
-F 2 "" H 3700 10900 50  0001 C CNN
-F 3 "" H 3700 10900 50  0001 C CNN
-	1    3700 10900
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5B565CB4
-P 3700 11100
-F 0 "#PWR?" H 3700 10850 50  0001 C CNN
-F 1 "GND" H 3700 10950 50  0000 C CNN
-F 2 "" H 3700 11100 50  0001 C CNN
-F 3 "" H 3700 11100 50  0001 C CNN
-	1    3700 11100
-	0    1    1    0   
-$EndComp
 Text Notes 7500 7350 0    118  ~ 0
 JX3
 Text Notes 10200 7350 0    118  ~ 0
@@ -1069,113 +234,274 @@ Text Notes 2050 7350 0    118  ~ 0
 JX1\n
 Text Notes 4700 7350 0    118  ~ 0
 JX2\n
-Text Label 6300 9900 0    49   ~ 0
-SFP_GPIO_2
-Text Label 6300 10000 0    49   ~ 0
-SFP_GPIO_3
-Text Label 6300 10200 0    49   ~ 0
-SFP_GPIO_4
-Text Label 6300 10300 0    49   ~ 0
-SFP_GPIO_5
-Text Label 6300 10400 0    49   ~ 0
-LED_GPIO_3
-Text Label 6300 10500 0    49   ~ 0
-DIP_GPIO_0
-Wire Wire Line
-	7050 9900 6300 9900
-Wire Wire Line
-	7050 10000 6300 10000
-Wire Wire Line
-	7050 10200 6300 10200
-Wire Wire Line
-	7050 10300 6300 10300
-Wire Wire Line
-	7050 10400 6300 10400
-Wire Wire Line
-	7050 10500 6300 10500
-Text Label 6700 9700 2    49   ~ 0
-SFP_GPIO_0
-Text Label 6700 9600 2    49   ~ 0
-SFP_GPIO_1
-Text Label 6700 9400 2    49   ~ 0
-SFP_GPIO_6
-Text Label 6700 9300 2    49   ~ 0
-RF_GPIO2_BANK12
-Text Label 6700 9200 2    49   ~ 0
-VADJ
 $Comp
-L Conn_01x40 J?
-U 1 1 5B569A9D
-P 7250 11100
-F 0 "J?" H 7250 13100 50  0000 C CNN
-F 1 "Conn_01x40" H 7250 9000 50  0000 C CNN
-F 2 "" H 7250 11100 50  0001 C CNN
-F 3 "" H 7250 11100 50  0001 C CNN
-	1    7250 11100
+L +5V #PWR?
+U 1 1 5B582995
+P 1650 4050
+F 0 "#PWR?" H 1650 3900 50  0001 C CNN
+F 1 "+5V" H 1650 4190 50  0000 C CNN
+F 2 "" H 1650 4050 50  0001 C CNN
+F 3 "" H 1650 4050 50  0001 C CNN
+	1    1650 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6250 9700 7050 9700
-Wire Wire Line
-	6300 9600 7050 9600
-Wire Wire Line
-	6250 9400 7050 9400
-Wire Wire Line
-	6250 9300 7050 9300
-Wire Wire Line
-	6250 9200 7050 9200
-Text GLabel 7050 10600 0    61   Input ~ 0
+$Comp
+L +5V #PWR?
+U 1 1 5B582C35
+P 2700 4050
+F 0 "#PWR?" H 2700 3900 50  0001 C CNN
+F 1 "+5V" H 2700 4190 50  0000 C CNN
+F 2 "" H 2700 4050 50  0001 C CNN
+F 3 "" H 2700 4050 50  0001 C CNN
+	1    2700 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 1000 0    60   Input ~ 0
+JTAG_TCK
+Text GLabel 1950 1100 0    60   Input ~ 0
+JTAG_TDO
+Text GLabel 2450 1000 2    60   Input ~ 0
+JTAG_TMS
+Text GLabel 2450 1100 2    60   Input ~ 0
+JTAG_TDI
+Text GLabel 2450 1200 2    60   Input ~ 0
+Carrier_Reset
+Text GLabel 1950 1200 0    60   Input ~ 0
+PWR_ENABLE
+Text GLabel 1950 1300 0    60   Input ~ 0
+FPGA_VBATT
+Text GLabel 1950 5200 0    60   Input ~ 0
+JX_VCCO_12
+Text GLabel 2450 5100 2    60   Input ~ 0
+JX_VCCO_12
+Text GLabel 2450 5200 2    60   Input ~ 0
+JX_VCCO_12
+$Comp
+L +5V #PWR?
+U 1 1 5B583F63
+P 5400 1500
+F 0 "#PWR?" H 5400 1350 50  0001 C CNN
+F 1 "+5V" H 5400 1640 50  0000 C CNN
+F 2 "" H 5400 1500 50  0001 C CNN
+F 3 "" H 5400 1500 50  0001 C CNN
+	1    5400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5B585EBB
+P 4350 4000
+F 0 "#PWR?" H 4350 3850 50  0001 C CNN
+F 1 "+5V" H 4350 4140 50  0000 C CNN
+F 2 "" H 4350 4000 50  0001 C CNN
+F 3 "" H 4350 4000 50  0001 C CNN
+	1    4350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5B586104
+P 5450 4000
+F 0 "#PWR?" H 5450 3850 50  0001 C CNN
+F 1 "+5V" H 5450 4140 50  0000 C CNN
+F 2 "" H 5450 4000 50  0001 C CNN
+F 3 "" H 5450 4000 50  0001 C CNN
+	1    5450 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 5200 0    60   Input ~ 0
+JX_VCCO_33_34
+Text GLabel 5150 5100 2    60   Input ~ 0
+JX_VCCO_33_34
+Text GLabel 5150 5200 2    60   Input ~ 0
+JX_VCCO_33_34
+Text GLabel 5150 6100 2    60   Input ~ 0
+JX_VCCO_13
+Text GLabel 7400 1200 0    60   Input ~ 0
+JX_MGTAVCC
+Text GLabel 7400 1300 0    60   Input ~ 0
+JX_MGTAVCC
+Text GLabel 7400 1400 0    60   Input ~ 0
+JX_MGTAVCC
+Text GLabel 7400 1500 0    60   Input ~ 0
+JX_MGTAVCC
+Text GLabel 7900 2400 2    60   Input ~ 0
+JX_MGTAVTT
+Text GLabel 7900 2500 2    60   Input ~ 0
+JX_MGTAVTT
+Text GLabel 7400 3200 0    60   Input ~ 0
+JX_VCCO_13
+Text GLabel 7900 3200 2    60   Input ~ 0
+JX_VCCO_13
+Text GLabel 7400 4400 0    60   Input ~ 0
+USB_ID
+Text GLabel 7400 4600 0    60   Input ~ 0
+USB_OTG_P
+Text GLabel 7400 4700 0    60   Input ~ 0
+USB_OTG_N
+Text GLabel 7900 4600 2    60   Input ~ 0
+USB_VBUS_OTG
+Text GLabel 7900 4700 2    60   Input ~ 0
+USB_OTG_CPEN
+Text GLabel 10200 1000 0    60   Input ~ 0
+GPO_0
+Text GLabel 10200 1100 0    60   Input ~ 0
+GPO_2
+Text GLabel 10700 1000 2    60   Input ~ 0
+GPO_1
+Text GLabel 10700 1100 2    60   Input ~ 0
+GPO_3
+Text GLabel 10200 5300 0    60   Input ~ 0
+3V3_I2C
+Text GLabel 10200 5500 0    60   Input ~ 0
+MIO15
+Text GLabel 10200 5600 0    60   Input ~ 0
+MIO10
+Text GLabel 10200 5800 0    60   Input ~ 0
+MIO13
+Text GLabel 10200 5900 0    60   Input ~ 0
+MIO14
+Text GLabel 10200 6100 0    60   Input ~ 0
+MIO0
+Text GLabel 10200 6200 0    60   Input ~ 0
 MIO48
-Text Label 6350 10800 0    49   ~ 0
-USB_UART_TXD
-Wire Wire Line
-	6350 10800 7050 10800
+Text GLabel 10700 5500 2    60   Input ~ 0
+MIO12
+Text GLabel 10700 5600 2    60   Input ~ 0
+MIO11
+Text GLabel 10700 5800 2    60   Input ~ 0
+MIO46
+Text GLabel 10700 5900 2    60   Input ~ 0
+MIO47
+Text GLabel 10700 6100 2    60   Input ~ 0
+MIO49
+Text GLabel 10700 6200 2    60   Input ~ 0
+MIO51
+Text GLabel 1950 1400 0    60   Input ~ 0
+IO_00_33_JX1
+Text GLabel 1950 1500 0    60   Input ~ 0
+IO_L16_33_JX1_P
+Text GLabel 1950 1600 0    60   Input ~ 0
+IO_L16_33_JX1_N
+Text GLabel 1950 1800 0    60   Input ~ 0
+IO_L18_33_JX1_P
+Text GLabel 1950 1900 0    60   Input ~ 0
+IO_L18_33_JX1_N
+Text GLabel 1950 2100 0    60   Input ~ 0
+IO_L20_33_JX1_P
+Text GLabel 1950 2200 0    60   Input ~ 0
+IO_L20_33_JX1_N
+Text GLabel 1950 2400 0    60   Input ~ 0
+IO_L22_33_JX1_P
+Text GLabel 1950 2500 0    60   Input ~ 0
+IO_L22_33_JX1_N
+Text GLabel 1950 2700 0    60   Input ~ 0
+IO_L01_33_JX1_P
+Text GLabel 1950 2800 0    60   Input ~ 0
+IO_L01_33_JX1_N
 $Comp
-L GND #PWR?
-U 1 1 5B56B35D
-P 7050 10900
-F 0 "#PWR?" H 7050 10650 50  0001 C CNN
-F 1 "GND" H 7050 10750 50  0000 C CNN
-F 2 "" H 7050 10900 50  0001 C CNN
-F 3 "" H 7050 10900 50  0001 C CNN
-	1    7050 10900
-	0    1    1    0   
+L Conn_02x30_Counter_Clockwise P7
+U 1 1 5B15A0EA
+P 14550 5600
+F 0 "P7" H 14550 7150 50  0000 C CNN
+F 1 "CONN_02X30" V 14550 5600 50  0000 C CNN
+F 2 "Connectors_Samtec:MECF-30-0_-NP-L-DV_Edge" H 14550 4000 50  0000 C TNN
+F 3 "" H 14550 5100 50  0000 C CNN
+	1    14550 5600
+	1    0    0    -1  
 $EndComp
-Text Label 6250 11000 0    49   ~ 0
-USB_UART_RXD
-Wire Wire Line
-	6250 11000 7050 11000
+Text GLabel 2300 10150 2    60   Input ~ 0
+PWR_ENABLE
+Text GLabel 2300 10050 2    60   Input ~ 0
+FPGA_VBATT
+Text GLabel 2300 9950 2    60   Input ~ 0
+JX_VCCO_12
+Text GLabel 2300 9850 2    60   Input ~ 0
+JX_VCCO_33_34
+Text GLabel 2300 9750 2    60   Input ~ 0
+JX_VCCO_13
+Text GLabel 2300 9650 2    60   Input ~ 0
+3V3_I2C
+Text GLabel 2300 9550 2    60   Input ~ 0
+JX_MGTAVCC
+Text GLabel 2300 9450 2    60   Input ~ 0
+JX_MGTAVTT
 $Comp
-L GND #PWR?
-U 1 1 5B56B8AA
-P 7050 11100
-F 0 "#PWR?" H 7050 10850 50  0001 C CNN
-F 1 "GND" H 7050 10950 50  0000 C CNN
-F 2 "" H 7050 11100 50  0001 C CNN
-F 3 "" H 7050 11100 50  0001 C CNN
-	1    7050 11100
-	0    1    1    0   
+L +5V #PWR?
+U 1 1 5B58ED6F
+P 2450 10250
+F 0 "#PWR?" H 2450 10100 50  0001 C CNN
+F 1 "+5V" H 2450 10390 50  0000 C CNN
+F 2 "" H 2450 10250 50  0001 C CNN
+F 3 "" H 2450 10250 50  0001 C CNN
+	1    2450 10250
+	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR?
-U 1 1 5B56B8E5
-P 7050 10700
-F 0 "#PWR?" H 7050 10450 50  0001 C CNN
-F 1 "GND" H 7050 10550 50  0000 C CNN
-F 2 "" H 7050 10700 50  0001 C CNN
-F 3 "" H 7050 10700 50  0001 C CNN
-	1    7050 10700
-	0    1    1    0   
+L Conn_01x09 J?
+U 1 1 5B58EE37
+P 2100 9850
+F 0 "J?" H 2100 10350 50  0000 C CNN
+F 1 "Power_Breakout" H 2100 9350 50  0000 C CNN
+F 2 "" H 2100 9850 50  0001 C CNN
+F 3 "" H 2100 9850 50  0001 C CNN
+	1    2100 9850
+	-1   0    0    1   
 $EndComp
+Text GLabel 4600 9600 0    60   Input ~ 0
+MIO15
+Text GLabel 4600 9700 0    60   Input ~ 0
+MIO10
+Text GLabel 4600 9800 0    60   Input ~ 0
+MIO13
+Text GLabel 4600 9900 0    60   Input ~ 0
+MIO14
+Text GLabel 4600 10000 0    60   Input ~ 0
+MIO0
+Text GLabel 4600 10100 0    60   Input ~ 0
+MIO48
+Text GLabel 5100 9600 2    60   Input ~ 0
+MIO12
+Text GLabel 5100 9700 2    60   Input ~ 0
+MIO11
+Text GLabel 5100 9800 2    60   Input ~ 0
+MIO46
+Text GLabel 5100 9900 2    60   Input ~ 0
+MIO47
+Text GLabel 5100 10000 2    60   Input ~ 0
+MIO49
+Text GLabel 5100 10100 2    60   Input ~ 0
+MIO51
 $Comp
-L Conn_01x40 J?
-U 1 1 5B56B961
-P 10050 11100
-F 0 "J?" H 10050 13100 50  0000 C CNN
-F 1 "Conn_01x40" H 10050 9000 50  0000 C CNN
-F 2 "" H 10050 11100 50  0001 C CNN
-F 3 "" H 10050 11100 50  0001 C CNN
-	1    10050 11100
+L Conn_02x06_Counter_Clockwise J?
+U 1 1 5B58F7D7
+P 4800 9800
+F 0 "J?" H 4850 10100 50  0000 C CNN
+F 1 "MIO_Breakout" H 4850 9400 50  0000 C CNN
+F 2 "" H 4800 9800 50  0001 C CNN
+F 3 "" H 4800 9800 50  0001 C CNN
+	1    4800 9800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 9900 2    60   Input ~ 0
+USB_VBUS_OTG
+Text GLabel 7950 10000 2    60   Input ~ 0
+USB_OTG_CPEN
+Text GLabel 7450 9800 0    60   Input ~ 0
+USB_ID
+Text GLabel 7450 9900 0    60   Input ~ 0
+USB_OTG_P
+Text GLabel 7450 10000 0    60   Input ~ 0
+USB_OTG_N
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 5B58FC0A
+P 7650 9900
+F 0 "J?" H 7700 10100 50  0000 C CNN
+F 1 "USB_OTG_Breakout" H 7700 9700 50  0000 C CNN
+F 2 "" H 7650 9900 50  0001 C CNN
+F 3 "" H 7650 9900 50  0001 C CNN
+	1    7650 9900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1253,60 +579,16 @@ Wire Wire Line
 	1950 4200 1650 4200
 Wire Wire Line
 	1650 4200 1650 4050
-$Comp
-L +5V #PWR?
-U 1 1 5B582995
-P 1650 4050
-F 0 "#PWR?" H 1650 3900 50  0001 C CNN
-F 1 "+5V" H 1650 4190 50  0000 C CNN
-F 2 "" H 1650 4050 50  0001 C CNN
-F 3 "" H 1650 4050 50  0001 C CNN
-	1    1650 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 4200 2700 4200
 Wire Wire Line
 	2700 4200 2700 4050
-$Comp
-L +5V #PWR?
-U 1 1 5B582C35
-P 2700 4050
-F 0 "#PWR?" H 2700 3900 50  0001 C CNN
-F 1 "+5V" H 2700 4190 50  0000 C CNN
-F 2 "" H 2700 4050 50  0001 C CNN
-F 3 "" H 2700 4050 50  0001 C CNN
-	1    2700 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 4100 2700 4100
 Connection ~ 2700 4100
 Wire Wire Line
 	1950 4100 1650 4100
 Connection ~ 1650 4100
-Text GLabel 1950 1000 0    60   Input ~ 0
-JTAG_TCK
-Text GLabel 1950 1100 0    60   Input ~ 0
-JTAG_TDO
-Text GLabel 2450 1000 2    60   Input ~ 0
-JTAG_TMS
-Text GLabel 2450 1100 2    60   Input ~ 0
-JTAG_TDI
-Text GLabel 2450 1200 2    60   Input ~ 0
-Carrier_Reset
-Text GLabel 2450 1300 2    60   Input ~ 0
-FPGA_Done
-Text GLabel 1950 1200 0    60   Input ~ 0
-PWR_ENABLE
-Text GLabel 1950 1300 0    60   Input ~ 0
-FPGA_VBATT
-Text GLabel 1950 5200 0    60   Input ~ 0
-JX_VCCO_12
-Text GLabel 2450 5100 2    60   Input ~ 0
-JX_VCCO_12
-Text GLabel 2450 5200 2    60   Input ~ 0
-JX_VCCO_12
 Wire Wire Line
 	4650 1700 4550 1700
 Wire Wire Line
@@ -1317,17 +599,6 @@ Wire Wire Line
 	5250 1700 5150 1700
 Wire Wire Line
 	5150 1500 5400 1500
-$Comp
-L +5V #PWR?
-U 1 1 5B583F63
-P 5400 1500
-F 0 "#PWR?" H 5400 1350 50  0001 C CNN
-F 1 "+5V" H 5400 1640 50  0000 C CNN
-F 2 "" H 5400 1500 50  0001 C CNN
-F 3 "" H 5400 1500 50  0001 C CNN
-	1    5400 1500
-	1    0    0    -1  
-$EndComp
 Connection ~ 4650 2000
 Connection ~ 4550 2000
 Wire Wire Line
@@ -1369,32 +640,10 @@ Wire Wire Line
 	4650 4200 4350 4200
 Wire Wire Line
 	4350 4200 4350 4000
-$Comp
-L +5V #PWR?
-U 1 1 5B585EBB
-P 4350 4000
-F 0 "#PWR?" H 4350 3850 50  0001 C CNN
-F 1 "+5V" H 4350 4140 50  0000 C CNN
-F 2 "" H 4350 4000 50  0001 C CNN
-F 3 "" H 4350 4000 50  0001 C CNN
-	1    4350 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 4200 5450 4200
 Wire Wire Line
 	5450 4200 5450 4000
-$Comp
-L +5V #PWR?
-U 1 1 5B586104
-P 5450 4000
-F 0 "#PWR?" H 5450 3850 50  0001 C CNN
-F 1 "+5V" H 5450 4140 50  0000 C CNN
-F 2 "" H 5450 4000 50  0001 C CNN
-F 3 "" H 5450 4000 50  0001 C CNN
-	1    5450 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 4100 5450 4100
 Connection ~ 5450 4100
@@ -1416,12 +665,6 @@ Connection ~ 4550 4800
 Wire Wire Line
 	4650 5100 4550 5100
 Connection ~ 4550 5100
-Text GLabel 4650 5200 0    60   Input ~ 0
-JX_VCCO_33_34
-Text GLabel 5150 5100 2    60   Input ~ 0
-JX_VCCO_33_34
-Text GLabel 5150 5200 2    60   Input ~ 0
-JX_VCCO_33_34
 Wire Wire Line
 	4650 5500 4550 5500
 Connection ~ 4550 5500
@@ -1434,8 +677,6 @@ Connection ~ 5250 5800
 Wire Wire Line
 	4650 5800 4550 5800
 Connection ~ 4550 5800
-Text GLabel 5150 6100 2    60   Input ~ 0
-JX_VCCO_13
 Wire Wire Line
 	7400 1800 7300 1800
 Wire Wire Line
@@ -1602,64 +843,208 @@ Connection ~ 10100 6000
 Wire Wire Line
 	10700 6000 10800 6000
 Connection ~ 10800 6000
-Text GLabel 7400 1200 0    60   Input ~ 0
-JX_MGTAVCC
-Text GLabel 7400 1300 0    60   Input ~ 0
-JX_MGTAVCC
-Text GLabel 7400 1400 0    60   Input ~ 0
-JX_MGTAVCC
-Text GLabel 7400 1500 0    60   Input ~ 0
-JX_MGTAVCC
-Text GLabel 7900 2400 2    60   Input ~ 0
-JX_MGTAVTT
-Text GLabel 7900 2500 2    60   Input ~ 0
-JX_MGTAVTT
-Text GLabel 7400 3200 0    60   Input ~ 0
-JX_VCCO_13
-Text GLabel 7900 3200 2    60   Input ~ 0
-JX_VCCO_13
-Text GLabel 7400 4400 0    60   Input ~ 0
-USB_ID
-Text GLabel 7400 4600 0    60   Input ~ 0
-USB_OTG_P
-Text GLabel 7400 4700 0    60   Input ~ 0
-USB_OTG_N
-Text GLabel 7900 4600 2    60   Input ~ 0
-USB_VBUS_OTG
-Text GLabel 7900 4700 2    60   Input ~ 0
-USB_OTG_CPEN
-Text GLabel 10200 1000 0    60   Input ~ 0
-GPO_0
-Text GLabel 10200 1100 0    60   Input ~ 0
-GPO_2
-Text GLabel 10700 1000 2    60   Input ~ 0
-GPO_1
-Text GLabel 10700 1100 2    60   Input ~ 0
-GPO_3
-Text GLabel 10200 5300 0    60   Input ~ 0
-3V3_I2C
-Text GLabel 10200 5500 0    60   Input ~ 0
-MIO15
-Text GLabel 10200 5600 0    60   Input ~ 0
-MIO10
-Text GLabel 10200 5800 0    60   Input ~ 0
-MIO13
-Text GLabel 10200 5900 0    60   Input ~ 0
-MIO14
-Text GLabel 10200 6100 0    60   Input ~ 0
-MIO0
-Text GLabel 10200 6200 0    60   Input ~ 0
-MIO48
-Text GLabel 10700 5500 2    60   Input ~ 0
+Wire Wire Line
+	2300 10250 2450 10250
+Wire Wire Line
+	14350 4200 14250 4200
+Wire Wire Line
+	14250 4200 14250 4050
+Wire Wire Line
+	14850 4200 14950 4200
+Wire Wire Line
+	14950 4200 14950 4050
+$Comp
+L +5V #PWR?
+U 1 1 5B590283
+P 14950 4050
+F 0 "#PWR?" H 14950 3900 50  0001 C CNN
+F 1 "+5V" H 14950 4190 50  0000 C CNN
+F 2 "" H 14950 4050 50  0001 C CNN
+F 3 "" H 14950 4050 50  0001 C CNN
+	1    14950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5B5902AF
+P 14250 4050
+F 0 "#PWR?" H 14250 3900 50  0001 C CNN
+F 1 "+5V" H 14250 4190 50  0000 C CNN
+F 2 "" H 14250 4050 50  0001 C CNN
+F 3 "" H 14250 4050 50  0001 C CNN
+	1    14250 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14350 4300 14100 4300
+Wire Wire Line
+	14100 4300 14100 7450
+Wire Wire Line
+	14850 4300 15100 4300
+Wire Wire Line
+	15100 4300 15100 7450
+$Comp
+L GND #PWR?
+U 1 1 5B5904EA
+P 15100 7450
+F 0 "#PWR?" H 15100 7200 50  0001 C CNN
+F 1 "GND" H 15100 7300 50  0000 C CNN
+F 2 "" H 15100 7450 50  0001 C CNN
+F 3 "" H 15100 7450 50  0001 C CNN
+	1    15100 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B590516
+P 14100 7450
+F 0 "#PWR?" H 14100 7200 50  0001 C CNN
+F 1 "GND" H 14100 7300 50  0000 C CNN
+F 2 "" H 14100 7450 50  0001 C CNN
+F 3 "" H 14100 7450 50  0001 C CNN
+	1    14100 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 14850 4400 2    60   Input ~ 0
 MIO12
-Text GLabel 10700 5600 2    60   Input ~ 0
+Text GLabel 14850 4600 2    60   Input ~ 0
 MIO11
-Text GLabel 10700 5800 2    60   Input ~ 0
+Text GLabel 14850 4800 2    60   Input ~ 0
 MIO46
-Text GLabel 10700 5900 2    60   Input ~ 0
+Text GLabel 14850 5000 2    60   Input ~ 0
 MIO47
-Text GLabel 10700 6100 2    60   Input ~ 0
+Text GLabel 14850 5200 2    60   Input ~ 0
 MIO49
-Text GLabel 10700 6200 2    60   Input ~ 0
+Text GLabel 14850 5400 2    60   Input ~ 0
 MIO51
+Text GLabel 14850 5600 2    60   Input ~ 0
+MIO15
+Text GLabel 14850 6400 2    60   Input ~ 0
+MIO10
+Text GLabel 14850 6000 2    60   Input ~ 0
+MIO13
+Text GLabel 14850 6200 2    60   Input ~ 0
+MIO14
+Text GLabel 14850 6800 2    60   Input ~ 0
+MIO0
+Text GLabel 14850 6600 2    60   Input ~ 0
+MIO48
+Wire Wire Line
+	14850 4500 15100 4500
+Connection ~ 15100 4500
+Wire Wire Line
+	14850 4700 15100 4700
+Connection ~ 15100 4700
+Wire Wire Line
+	14850 4900 15100 4900
+Connection ~ 15100 4900
+Wire Wire Line
+	14850 5100 15100 5100
+Connection ~ 15100 5100
+Wire Wire Line
+	14850 5300 15100 5300
+Connection ~ 15100 5300
+Wire Wire Line
+	14850 5500 15100 5500
+Connection ~ 15100 5500
+Wire Wire Line
+	14850 5700 15100 5700
+Connection ~ 15100 5700
+Wire Wire Line
+	14850 5900 15100 5900
+Connection ~ 15100 5900
+Wire Wire Line
+	14850 6100 15100 6100
+Connection ~ 15100 6100
+Wire Wire Line
+	14850 6300 15100 6300
+Connection ~ 15100 6300
+Wire Wire Line
+	15100 6500 14850 6500
+Connection ~ 15100 6500
+Wire Wire Line
+	14850 6700 15100 6700
+Connection ~ 15100 6700
+Wire Wire Line
+	15100 6900 14850 6900
+Connection ~ 15100 6900
+Wire Wire Line
+	14850 7100 15100 7100
+Connection ~ 15100 7100
+Wire Wire Line
+	14350 4500 14100 4500
+Connection ~ 14100 4500
+Wire Wire Line
+	14100 4700 14350 4700
+Connection ~ 14100 4700
+Wire Wire Line
+	14350 4900 14100 4900
+Connection ~ 14100 4900
+Wire Wire Line
+	14100 5100 14350 5100
+Connection ~ 14100 5100
+Wire Wire Line
+	14350 5300 14100 5300
+Connection ~ 14100 5300
+Wire Wire Line
+	14100 5550 14100 5500
+Wire Wire Line
+	14100 5500 14350 5500
+Connection ~ 14100 5550
+Wire Wire Line
+	14350 5700 14100 5700
+Connection ~ 14100 5700
+Wire Wire Line
+	14100 5900 14350 5900
+Connection ~ 14100 5900
+Wire Wire Line
+	14350 6100 14100 6100
+Connection ~ 14100 6100
+Wire Wire Line
+	14100 6300 14350 6300
+Connection ~ 14100 6300
+Wire Wire Line
+	14350 6500 14100 6500
+Connection ~ 14100 6500
+Wire Wire Line
+	14100 6700 14350 6700
+Connection ~ 14100 6700
+Wire Wire Line
+	14350 6900 14100 6900
+Connection ~ 14100 6900
+Wire Wire Line
+	14100 7100 14350 7100
+Connection ~ 14100 7100
+Wire Wire Line
+	14850 5800 15400 5800
+Wire Wire Line
+	15400 5800 15400 5700
+$Comp
+L +5V #PWR?
+U 1 1 5B592912
+P 15400 5700
+F 0 "#PWR?" H 15400 5550 50  0001 C CNN
+F 1 "+5V" H 15400 5840 50  0000 C CNN
+F 2 "" H 15400 5700 50  0001 C CNN
+F 3 "" H 15400 5700 50  0001 C CNN
+	1    15400 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14350 5800 13850 5800
+Wire Wire Line
+	13850 5800 13850 5700
+$Comp
+L +5V #PWR?
+U 1 1 5B592A6B
+P 13850 5700
+F 0 "#PWR?" H 13850 5550 50  0001 C CNN
+F 1 "+5V" H 13850 5840 50  0000 C CNN
+F 2 "" H 13850 5700 50  0001 C CNN
+F 3 "" H 13850 5700 50  0001 C CNN
+	1    13850 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 14350 4400 0    60   Input ~ 0
+PWR_ENABLE
 $EndSCHEMATC

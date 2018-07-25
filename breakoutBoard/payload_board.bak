@@ -1295,8 +1295,6 @@ Text GLabel 2450 1100 2    60   Input ~ 0
 JTAG_TDI
 Text GLabel 2450 1200 2    60   Input ~ 0
 Carrier_Reset
-Text GLabel 2450 1300 2    60   Input ~ 0
-FPGA_Done
 Text GLabel 1950 1200 0    60   Input ~ 0
 PWR_ENABLE
 Text GLabel 1950 1300 0    60   Input ~ 0
@@ -1602,4 +1600,86 @@ Connection ~ 10100 6000
 Wire Wire Line
 	10700 6000 10800 6000
 Connection ~ 10800 6000
+Text GLabel 7400 1200 0    60   Input ~ 0
+JX_MGTAVCC
+Text GLabel 7400 1300 0    60   Input ~ 0
+JX_MGTAVCC
+Text GLabel 7400 1400 0    60   Input ~ 0
+JX_MGTAVCC
+Text GLabel 7400 1500 0    60   Input ~ 0
+JX_MGTAVCC
+Text GLabel 7900 2400 2    60   Input ~ 0
+JX_MGTAVTT
+Text GLabel 7900 2500 2    60   Input ~ 0
+JX_MGTAVTT
+Text GLabel 7400 3200 0    60   Input ~ 0
+JX_VCCO_13
+Text GLabel 7900 3200 2    60   Input ~ 0
+JX_VCCO_13
+Text GLabel 7400 4400 0    60   Input ~ 0
+USB_ID
+Text GLabel 7400 4600 0    60   Input ~ 0
+USB_OTG_P
+Text GLabel 7400 4700 0    60   Input ~ 0
+USB_OTG_N
+Text GLabel 7900 4600 2    60   Input ~ 0
+USB_VBUS_OTG
+Text GLabel 7900 4700 2    60   Input ~ 0
+USB_OTG_CPEN
+Text GLabel 10200 1000 0    60   Input ~ 0
+GPO_0
+Text GLabel 10200 1100 0    60   Input ~ 0
+GPO_2
+Text GLabel 10700 1000 2    60   Input ~ 0
+GPO_1
+Text GLabel 10700 1100 2    60   Input ~ 0
+GPO_3
+Text GLabel 10200 5300 0    60   Input ~ 0
+3V3_I2C
+Text GLabel 10200 5500 0    60   Input ~ 0
+MIO15
+Text GLabel 10200 5600 0    60   Input ~ 0
+MIO10
+Text GLabel 10200 5800 0    60   Input ~ 0
+MIO13
+Text GLabel 10200 5900 0    60   Input ~ 0
+MIO14
+Text GLabel 10200 6100 0    60   Input ~ 0
+MIO0
+Text GLabel 10200 6200 0    60   Input ~ 0
+MIO48
+Text GLabel 10700 5500 2    60   Input ~ 0
+MIO12
+Text GLabel 10700 5600 2    60   Input ~ 0
+MIO11
+Text GLabel 10700 5800 2    60   Input ~ 0
+MIO46
+Text GLabel 10700 5900 2    60   Input ~ 0
+MIO47
+Text GLabel 10700 6100 2    60   Input ~ 0
+MIO49
+Text GLabel 10700 6200 2    60   Input ~ 0
+MIO51
+Text GLabel 1950 1400 0    60   Input ~ 0
+IO_00_33_JX1
+Text GLabel 1950 1500 0    60   Input ~ 0
+IO_L16_33_JX1_P
+Text GLabel 1950 1600 0    60   Input ~ 0
+IO_L16_33_JX1_N
+Text GLabel 1950 1800 0    60   Input ~ 0
+IO_L18_33_JX1_P
+Text GLabel 1950 1900 0    60   Input ~ 0
+IO_L18_33_JX1_N
+Text GLabel 1950 2100 0    60   Input ~ 0
+IO_L20_33_JX1_P
+Text GLabel 1950 2200 0    60   Input ~ 0
+IO_L20_33_JX1_N
+Text GLabel 1950 2400 0    60   Input ~ 0
+IO_L22_33_JX1_P
+Text GLabel 1950 2500 0    60   Input ~ 0
+IO_L22_33_JX1_N
+Text GLabel 1950 2700 0    60   Input ~ 0
+IO_L01_33_JX1_P
+Text GLabel 1950 2800 0    60   Input ~ 0
+IO_L01_33_JX1_N
 $EndSCHEMATC

@@ -1943,7 +1943,7 @@ U 1 1 5B5BE2D6
 P 19800 5600
 F 0 "J4" H 19800 6500 50  0000 C CNN
 F 1 "Cardedge breakout" H 19900 4700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 19800 5600 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 19800 5600 50  0001 C CNN
 F 3 "" H 19800 5600 50  0001 C CNN
 	1    19800 5600
 	1    0    0    -1  

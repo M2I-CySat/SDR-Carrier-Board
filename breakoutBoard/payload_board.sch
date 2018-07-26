@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:project
+LIBS:payload_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr C 22000 17000
@@ -422,9 +423,9 @@ Text GLabel 2300 9750 2    60   Input ~ 0
 JX_VCCO_13
 Text GLabel 2300 9650 2    60   Input ~ 0
 3V3_I2C
-Text GLabel 2300 9550 2    60   Input ~ 0
-JX_MGTAVCC
 Text GLabel 2300 9450 2    60   Input ~ 0
+JX_MGTAVCC
+Text GLabel 2300 9550 2    60   Input ~ 0
 JX_MGTAVTT
 $Comp
 L +5V #PWR014
@@ -485,7 +486,7 @@ F 3 "" H 4800 9950 50  0001 C CNN
 $EndComp
 Text GLabel 7950 9900 2    60   Input ~ 0
 USB_VBUS_OTG
-Text GLabel 7950 10000 2    60   Input ~ 0
+Text GLabel 7950 9800 2    60   Input ~ 0
 USB_OTG_CPEN
 Text GLabel 7450 9800 0    60   Input ~ 0
 USB_ID
@@ -498,7 +499,7 @@ L Conn_02x03_Counter_Clockwise J3
 U 1 1 5B58FC0A
 P 7650 9900
 F 0 "J3" H 7700 10100 50  0000 C CNN
-F 1 "USB_OTG_Breakout" H 7700 9700 50  0000 C CNN
+F 1 "USB_OTG_Breakout" H 7500 9650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 7650 9900 50  0001 C CNN
 F 3 "" H 7650 9900 50  0001 C CNN
 	1    7650 9900
@@ -2024,4 +2025,15 @@ NoConn ~ 17300 5250
 NoConn ~ 16800 5250
 NoConn ~ 14800 5300
 NoConn ~ 14300 5300
+$Comp
+L GND #PWR?
+U 1 1 5B5A3ACB
+P 7950 10000
+F 0 "#PWR?" H 7950 9750 50  0001 C CNN
+F 1 "GND" H 7950 9850 50  0000 C CNN
+F 2 "" H 7950 10000 50  0001 C CNN
+F 3 "" H 7950 10000 50  0001 C CNN
+	1    7950 10000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:project
+LIBS:payload_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr C 22000 17000
@@ -422,9 +423,9 @@ Text GLabel 2300 9750 2    60   Input ~ 0
 JX_VCCO_13
 Text GLabel 2300 9650 2    60   Input ~ 0
 3V3_I2C
-Text GLabel 2300 9550 2    60   Input ~ 0
-JX_MGTAVCC
 Text GLabel 2300 9450 2    60   Input ~ 0
+JX_MGTAVCC
+Text GLabel 2300 9550 2    60   Input ~ 0
 JX_MGTAVTT
 $Comp
 L +5V #PWR014
@@ -483,9 +484,9 @@ F 3 "" H 4800 9950 50  0001 C CNN
 	1    4800 9950
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7950 9900 2    60   Input ~ 0
-USB_VBUS_OTG
 Text GLabel 7950 10000 2    60   Input ~ 0
+USB_VBUS_OTG
+Text GLabel 7950 9900 2    60   Input ~ 0
 USB_OTG_CPEN
 Text GLabel 7450 9800 0    60   Input ~ 0
 USB_ID
@@ -1943,7 +1944,7 @@ U 1 1 5B5BE2D6
 P 19800 5600
 F 0 "J4" H 19800 6500 50  0000 C CNN
 F 1 "Cardedge breakout" H 19900 4700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 19800 5600 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 19800 5600 50  0001 C CNN
 F 3 "" H 19800 5600 50  0001 C CNN
 	1    19800 5600
 	1    0    0    -1  

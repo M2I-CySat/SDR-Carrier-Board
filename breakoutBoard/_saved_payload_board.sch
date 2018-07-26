@@ -1761,9 +1761,9 @@ F 3 "" H 14050 7550 50  0001 C CNN
 	1    14050 7550
 	1    0    0    -1  
 $EndComp
-Text GLabel 14800 5500 2    60   Input ~ 0
+Text GLabel 14800 5700 2    60   Input ~ 0
 MIO12
-Text GLabel 14800 5300 2    60   Input ~ 0
+Text GLabel 14800 5500 2    60   Input ~ 0
 MIO11
 Text GLabel 14800 5100 2    60   Input ~ 0
 MIO46
@@ -1773,9 +1773,9 @@ Text GLabel 14800 4700 2    60   Input ~ 0
 MIO49
 Text GLabel 14800 4500 2    60   Input ~ 0
 MIO51
-Text GLabel 14300 5500 0    60   Input ~ 0
+Text GLabel 14300 5700 0    60   Input ~ 0
 MIO15
-Text GLabel 14300 5300 0    60   Input ~ 0
+Text GLabel 14300 5500 0    60   Input ~ 0
 MIO10
 Text GLabel 14300 5100 0    60   Input ~ 0
 MIO13
@@ -1943,7 +1943,7 @@ U 1 1 5B5BE2D6
 P 19800 5600
 F 0 "J4" H 19800 6500 50  0000 C CNN
 F 1 "Cardedge breakout" H 19900 4700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 19800 5600 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 19800 5600 50  0001 C CNN
 F 3 "" H 19800 5600 50  0001 C CNN
 	1    19800 5600
 	1    0    0    -1  
@@ -2022,4 +2022,6 @@ Text GLabel 19600 6300 0    60   Input ~ 0
 FPGA_DONE
 NoConn ~ 17300 5250
 NoConn ~ 16800 5250
+NoConn ~ 14800 5300
+NoConn ~ 14300 5300
 $EndSCHEMATC

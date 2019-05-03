@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name breakoutBoard)(type KiCad)(uri "C:/Users/Leo/Documents/CySat/SDR Carrier Board/schematics/breakoutBoard")(options "")(descr ""))
+  (lib (name breakoutBoard)(type KiCad)(uri "C:/Users/Leo/Documents/CySat/SDR Carrier Board/SDR-Carrier-Board/footprints")(options "")(descr ""))
 )

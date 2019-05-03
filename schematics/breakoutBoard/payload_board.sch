@@ -58,17 +58,6 @@ F 3 "" H 9500 1450 50  0000 C CNN
 	1    9500 2200
 	1    0    0    -1  
 $EndComp
-$Comp
-L payload_board-rescue:B5B-EH-A RIB1
-U 1 1 5CCD2E38
-P 2800 7150
-F 0 "RIB1" H 3078 7079 50  0000 L CNN
-F 1 "B5B-EH-A" H 3078 6988 50  0000 L CNN
-F 2 "breakoutBoard:B5B-EH-A" H 3078 6897 50  0000 L CNN
-F 3 "" H 2750 7250 50  0001 C CNN
-	1    2800 7150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 800  1300 800 
 Wire Wire Line
@@ -222,18 +211,14 @@ $EndComp
 $Comp
 L payload_board-rescue:Molex-MMCX-SMD SMA1
 U 1 1 5CCDD268
-P 2350 5850
-F 0 "SMA1" H 2428 5713 50  0000 L CNN
-F 1 "Molex-MMCX-SMD" H 2350 6100 50  0001 C CNN
-F 2 "breakoutBoard:Molex MMCX SMD 50Ohm" H 2350 5850 50  0001 C CNN
-F 3 "" H 2350 5850 50  0001 C CNN
-	1    2350 5850
+P 4950 7100
+F 0 "SMA1" H 5028 6963 50  0000 L CNN
+F 1 "Molex-MMCX-SMD" H 4950 7350 50  0001 C CNN
+F 2 "breakoutBoard:Molex MMCX SMD 50Ohm" H 4950 7100 50  0001 C CNN
+F 3 "" H 4950 7100 50  0001 C CNN
+	1    4950 7100
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	2250 5850 2050 5850
-Wire Wire Line
-	2250 5950 2050 5950
 Wire Wire Line
 	2950 7050 2950 6400
 Wire Wire Line
@@ -242,4 +227,159 @@ Wire Wire Line
 	1400 6050 1550 6050
 Wire Wire Line
 	1400 6400 2950 6400
+Wire Wire Line
+	2200 5150 2050 5150
+Wire Wire Line
+	2050 5250 2200 5250
+Wire Wire Line
+	2200 5250 2200 5150
+Wire Wire Line
+	1550 5250 1250 5250
+Wire Wire Line
+	1250 5250 1250 7550
+Wire Wire Line
+	1250 7550 3250 7550
+Wire Wire Line
+	3250 7550 3250 6400
+Wire Wire Line
+	3250 6400 3100 6400
+Connection ~ 2950 6400
+Wire Wire Line
+	3250 6400 3250 5350
+Wire Wire Line
+	3250 5350 3950 5350
+Connection ~ 3250 6400
+Wire Wire Line
+	4650 5250 5050 5250
+Wire Wire Line
+	5050 5250 5050 5350
+Wire Wire Line
+	5050 6600 3950 6600
+Wire Wire Line
+	3950 6600 3950 5350
+Connection ~ 3950 5350
+Wire Wire Line
+	3950 5350 4150 5350
+Wire Wire Line
+	4650 5350 5050 5350
+Connection ~ 5050 5350
+Wire Wire Line
+	5050 5350 5050 6250
+Wire Wire Line
+	4650 6250 5050 6250
+Connection ~ 5050 6250
+Wire Wire Line
+	5050 6250 5050 6600
+Wire Wire Line
+	7650 3300 7900 3300
+Wire Wire Line
+	7900 3300 7900 3750
+Wire Wire Line
+	7900 3750 6950 3750
+Wire Wire Line
+	5050 3750 5050 5250
+Connection ~ 5050 5250
+Wire Wire Line
+	7150 3300 6950 3300
+Connection ~ 6950 3750
+Wire Wire Line
+	6950 3750 5050 3750
+Wire Wire Line
+	7650 2500 7900 2500
+Wire Wire Line
+	7900 2500 7900 2600
+Connection ~ 7900 3300
+Wire Wire Line
+	7650 2600 7900 2600
+Connection ~ 7900 2600
+Wire Wire Line
+	7900 2600 7900 3300
+Wire Wire Line
+	7150 1300 6950 1300
+Wire Wire Line
+	6950 1300 6950 1400
+Connection ~ 6950 3300
+Wire Wire Line
+	6950 3300 6950 3750
+Wire Wire Line
+	7150 1400 6950 1400
+Connection ~ 6950 1400
+Wire Wire Line
+	6950 1400 6950 1500
+Wire Wire Line
+	7150 1500 6950 1500
+Connection ~ 6950 1500
+Wire Wire Line
+	6950 1500 6950 1600
+Wire Wire Line
+	7150 1600 6950 1600
+Connection ~ 6950 1600
+Wire Wire Line
+	6950 1600 6950 3300
+Wire Wire Line
+	2200 5150 3100 5150
+Wire Wire Line
+	3100 5150 3100 6400
+Connection ~ 2200 5150
+Connection ~ 3100 6400
+Wire Wire Line
+	3100 6400 2950 6400
+$Comp
+L payload_board-rescue:ribbon2.54mmPitch e1
+U 1 1 5CCBC1CC
+P 2700 7250
+F 0 "e1" H 3150 7250 50  0001 C CNN
+F 1 "ribbon2.54mmPitch" H 3228 7213 50  0000 L CNN
+F 2 "breakoutBoard:ribbon2.5mmPitch" H 3150 7250 50  0001 C CNN
+F 3 "" H 3150 7250 50  0001 C CNN
+	1    2700 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L payload_board-rescue:Molex-MMCX-SMD SMA2
+U 1 1 5CCBDC56
+P 4550 7100
+F 0 "SMA2" H 4628 6963 50  0000 L CNN
+F 1 "Molex-MMCX-SMD" H 4550 7350 50  0001 C CNN
+F 2 "breakoutBoard:Molex MMCX SMD 50Ohm" H 4550 7100 50  0001 C CNN
+F 3 "" H 4550 7100 50  0001 C CNN
+	1    4550 7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 7100 4850 7100
+Wire Wire Line
+	4850 7200 4650 7200
+Wire Wire Line
+	9750 6300 10300 6300
+Wire Wire Line
+	10300 6300 10300 6700
+Wire Wire Line
+	10300 6700 3050 6700
+Wire Wire Line
+	3050 6700 3050 7050
+Wire Wire Line
+	3150 7050 3400 7050
+Wire Wire Line
+	4200 7050 4200 6850
+Wire Wire Line
+	4200 6850 9100 6850
+Wire Wire Line
+	9100 6850 9100 6400
+Wire Wire Line
+	9100 6400 9250 6400
+Wire Wire Line
+	2150 7250 2400 7250
+Wire Wire Line
+	2400 7250 2400 6700
+Wire Wire Line
+	2400 6700 3050 6700
+Connection ~ 3050 6700
+Wire Wire Line
+	3400 7050 3400 7400
+Wire Wire Line
+	3400 7400 2150 7400
+Connection ~ 3400 7050
+Wire Wire Line
+	3400 7050 4200 7050
 $EndSCHEMATC

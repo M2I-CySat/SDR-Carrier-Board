@@ -1,23 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# payload_board-rescue_B5B-EH-A
-#
-DEF payload_board-rescue_B5B-EH-A RIB 0 40 Y Y 1 F N
-F0 "RIB" -50 100 50 H V C CNN
-F1 "payload_board-rescue_B5B-EH-A" -50 100 50 H V C CNN
-F2 "breakoutBoard:B5B-EH-A" -50 100 50 H V C CNN
-F3 "" -50 100 50 H I C CNN
-DRAW
-S -350 50 250 -100 0 1 0 N
-X PWR 1 -250 100 100 D 50 50 1 1 B
-X I2C_SCL 2 -150 100 100 D 50 50 1 1 B
-X I2C_SDA 3 -50 100 100 D 50 50 1 1 B
-X SDR_EN 4 50 100 100 D 50 50 1 1 B
-X GND 5 150 100 100 D 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # payload_board-rescue_CONN_02X50
 #
 DEF payload_board-rescue_CONN_02X50 P 0 1 Y N 2 L N
@@ -208,10 +191,31 @@ F1 "payload_board-rescue_breakout_carrier" 0 150 50 H V C CNN
 F2 "breakoutBoard:breakout_carrier" 100 200 50 H I C CNN
 F3 "" 100 200 50 H I C CNN
 DRAW
-S -300 100 300 -100 0 1 0 N
+S -250 100 550 -100 0 1 0 N
 X I2C_SCL 1 -150 200 100 D 50 50 1 1 B
 X I2C_SDA 2 0 200 100 D 50 50 1 1 B
 X SDR_EN 3 150 200 100 D 50 50 1 1 B
+X UART_TX 4 300 200 100 D 50 50 1 1 B
+X UART_RX 5 450 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# payload_board-rescue_ribbon2.54mmPitch
+#
+DEF payload_board-rescue_ribbon2.54mmPitch e 0 40 Y Y 1 F N
+F0 "e" 450 0 50 H I C CNN
+F1 "payload_board-rescue_ribbon2.54mmPitch" 100 750 50 H V C CNN
+F2 "breakoutBoard:ribbon2.5mmPitch" 450 0 50 H I C CNN
+F3 "" 450 0 50 H I C CNN
+DRAW
+S -250 150 500 0 1 1 0 N
+X PWR 1 -150 200 100 D 50 50 1 1 B
+X I2C_SCL 2 -50 200 100 D 50 50 1 1 B
+X I2C_SDA 3 50 200 100 D 50 50 1 1 B
+X SDR_EN 4 150 200 100 D 50 50 1 1 B
+X GND 5 250 200 100 D 50 50 1 1 B
+X UART_TX 6 350 200 100 D 50 50 1 1 B
+X UART_RX 7 450 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #

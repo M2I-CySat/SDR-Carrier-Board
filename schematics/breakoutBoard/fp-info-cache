@@ -1,4 +1,4 @@
-12445311355561
+9335019898357
 breakoutBoard
 B5B-EH-A
 
@@ -21,37 +21,23 @@ breakout_carrier
 3
 3
 breakoutBoard
-cy
-
-
-0
-0
-0
-breakoutBoard
-cyMed
-
-
-0
-0
-0
-breakoutBoard
-Cysized
-
-
-0
-0
-0
-breakoutBoard
-Molex Conn 0347920040
-
-
-0
-6
-2
-breakoutBoard
 Molex MMCX SMD 50Ohm
 
 
 0
 5
-2
+1
+breakoutBoard
+ribbon2.5mmPitch
+
+
+0
+8
+8
+breakoutBoard
+SOIC-100
+
+
+0
+102
+100

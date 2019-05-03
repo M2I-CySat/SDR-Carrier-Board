@@ -64,24 +64,6 @@ Wire Wire Line
 	1300 800  1300 1150
 Wire Wire Line
 	1300 1150 1550 1150
-Wire Wire Line
-	4100 1900 3650 1900
-Wire Wire Line
-	2650 6800 3500 6800
-Wire Wire Line
-	2750 7050 2750 6950
-Wire Wire Line
-	3500 1800 4100 1800
-Wire Wire Line
-	3500 1800 3500 6800
-Wire Wire Line
-	2750 6950 3650 6950
-Wire Wire Line
-	3650 1900 3650 6950
-Wire Wire Line
-	2650 6800 2650 7050
-Wire Wire Line
-	2850 800  2850 6600
 $Comp
 L payload_board-rescue:breakout_carrier U1
 U 1 1 5CC7A5E2
@@ -93,23 +75,6 @@ F 3 "" H 2050 7150 50  0001 C CNN
 	1    1950 6950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2150 6800 2650 6800
-Connection ~ 2650 6800
-Wire Wire Line
-	2150 6950 2750 6950
-Connection ~ 2750 6950
-Wire Wire Line
-	2150 7100 2350 7100
-Wire Wire Line
-	2350 7100 2350 6600
-Wire Wire Line
-	2350 6600 2850 6600
-Connection ~ 2850 6600
-Wire Wire Line
-	2850 6600 2850 7050
-Wire Wire Line
-	2550 7050 2550 4350
 Wire Wire Line
 	2550 4150 2050 4150
 Wire Wire Line
@@ -128,7 +93,6 @@ Wire Wire Line
 	3950 4350 4150 4350
 Wire Wire Line
 	2550 4350 3800 4350
-Connection ~ 2550 4350
 Wire Wire Line
 	2550 4350 2550 4250
 Connection ~ 3950 4350
@@ -220,13 +184,9 @@ F 3 "" H 4950 7100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2950 7050 2950 6400
-Wire Wire Line
 	1400 6400 1400 6050
 Wire Wire Line
 	1400 6050 1550 6050
-Wire Wire Line
-	1400 6400 2950 6400
 Wire Wire Line
 	2200 5150 2050 5150
 Wire Wire Line
@@ -240,10 +200,9 @@ Wire Wire Line
 Wire Wire Line
 	1250 7550 3250 7550
 Wire Wire Line
-	3250 7550 3250 6400
+	3250 7550 3250 7050
 Wire Wire Line
 	3250 6400 3100 6400
-Connection ~ 2950 6400
 Wire Wire Line
 	3250 6400 3250 5350
 Wire Wire Line
@@ -322,19 +281,6 @@ Wire Wire Line
 	3100 5150 3100 6400
 Connection ~ 2200 5150
 Connection ~ 3100 6400
-Wire Wire Line
-	3100 6400 2950 6400
-$Comp
-L payload_board-rescue:ribbon2.54mmPitch e1
-U 1 1 5CCBC1CC
-P 2700 7250
-F 0 "e1" H 3150 7250 50  0001 C CNN
-F 1 "ribbon2.54mmPitch" H 3228 7213 50  0000 L CNN
-F 2 "breakoutBoard:ribbon2.5mmPitch" H 3150 7250 50  0001 C CNN
-F 3 "" H 3150 7250 50  0001 C CNN
-	1    2700 7250
-	1    0    0    -1  
-$EndComp
 $Comp
 L payload_board-rescue:Molex-MMCX-SMD SMA2
 U 1 1 5CCBDC56
@@ -355,31 +301,61 @@ Wire Wire Line
 Wire Wire Line
 	10300 6300 10300 6700
 Wire Wire Line
-	10300 6700 3050 6700
-Wire Wire Line
-	3050 6700 3050 7050
-Wire Wire Line
-	3150 7050 3400 7050
-Wire Wire Line
-	4200 7050 4200 6850
-Wire Wire Line
-	4200 6850 9100 6850
-Wire Wire Line
 	9100 6850 9100 6400
 Wire Wire Line
 	9100 6400 9250 6400
+$Comp
+L payload_board-rescue:B5B-EH-A RIB1
+U 1 1 5CCD5DF0
+P 2800 7150
+F 0 "RIB1" H 3078 7104 50  0000 L CNN
+F 1 "B5B-EH-A" H 3078 7013 50  0000 L CNN
+F 2 "breakoutBoard:B5B-EH-A" H 3078 6922 50  0000 L CNN
+F 3 "" H 2750 7250 50  0001 C CNN
+	1    2800 7150
+	1    0    0    -1  
+$EndComp
+Connection ~ 2550 4350
 Wire Wire Line
-	2150 7250 2400 7250
+	2550 7050 2550 4350
 Wire Wire Line
-	2400 7250 2400 6700
+	1400 6400 3100 6400
 Wire Wire Line
-	2400 6700 3050 6700
-Connection ~ 3050 6700
+	2400 6700 2650 6700
 Wire Wire Line
-	3400 7050 3400 7400
+	2950 7050 3250 7050
+Connection ~ 3250 7050
 Wire Wire Line
-	3400 7400 2150 7400
-Connection ~ 3400 7050
+	3250 7050 3250 6400
 Wire Wire Line
-	3400 7050 4200 7050
+	2650 6700 2650 7050
+Connection ~ 2650 6700
+Wire Wire Line
+	2650 6700 10300 6700
+Wire Wire Line
+	2750 6850 2750 7050
+Wire Wire Line
+	2850 800  2850 6550
+Wire Wire Line
+	2150 7100 2400 7100
+Wire Wire Line
+	2400 7100 2400 6700
+Wire Wire Line
+	2150 6950 2250 6950
+Wire Wire Line
+	2250 6950 2250 6850
+Wire Wire Line
+	2250 6850 2750 6850
+Connection ~ 2750 6850
+Wire Wire Line
+	2150 6800 2350 6800
+Wire Wire Line
+	2350 6800 2350 6550
+Wire Wire Line
+	2350 6550 2850 6550
+Connection ~ 2850 6550
+Wire Wire Line
+	2850 6550 2850 7050
+Wire Wire Line
+	2750 6850 9100 6850
 $EndSCHEMATC

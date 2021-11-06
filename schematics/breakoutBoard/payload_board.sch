@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Payload Interface Board"
-Date "2021-06-18"
-Rev "4"
+Date "2021-11-06"
+Rev "6"
 Comp "Make to Innovate"
 Comment1 "Matthew E. Nelson"
 Comment2 ""

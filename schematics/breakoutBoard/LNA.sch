@@ -189,4 +189,34 @@ Text GLabel 5150 1350 1    50   Input ~ 0
 5V
 Text GLabel 5050 2700 1    50   Input ~ 0
 GND
+$Comp
+L Device:L L?
+U 1 1 6194A367
+P 2750 4900
+F 0 "L?" H 2803 4946 50  0000 L CNN
+F 1 "L" H 2803 4855 50  0000 L CNN
+F 2 "" H 2750 4900 50  0001 C CNN
+F 3 "~" H 2750 4900 50  0001 C CNN
+	1    2750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 6194A9C4
+P 2250 4900
+F 0 "C?" H 2365 4946 50  0000 L CNN
+F 1 "CP1" H 2365 4855 50  0000 L CNN
+F 2 "" H 2250 4900 50  0001 C CNN
+F 3 "~" H 2250 4900 50  0001 C CNN
+	1    2250 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4750 2750 4750
+Wire Wire Line
+	2250 5050 2750 5050
+Text GLabel 2500 5050 3    50   Input ~ 0
+GND
+Text GLabel 2500 4750 1    50   Input ~ 0
+5V
 $EndSCHEMATC

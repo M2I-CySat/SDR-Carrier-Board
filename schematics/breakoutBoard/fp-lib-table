@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name mini-circuits)(type KiCad)(uri ${KIPRJMOD}/mini-circuits.pretty)(options "")(descr ""))
+  (lib (name RF_Mini-Circuits)(type KiCad)(uri ${KIPRJMOD}/RF_Mini-Circuits.pretty)(options "")(descr ""))
+  (lib (name Mounting_Holes)(type KiCad)(uri C:/GitHub/CySat-PayloadBoard/footprints/Mounting_Holes.pretty-master)(options "")(descr ""))
+)

@@ -1,0 +1,83 @@
+M48
+; DRILL file {KiCad (6.0.4-0)} date Thursday, April 21, 2022 at 11:00:13 AM
+; FORMAT={-:-/ absolute / metric / decimal}
+; #@! TF.CreationDate,2022-04-21T11:00:13-05:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,(6.0.4-0)
+; #@! TF.FileFunction,Plated,1,4,PTH
+FMAT,2
+METRIC
+; #@! TA.AperFunction,Plated,PTH,ViaDrill
+T1C0.102
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T2C0.508
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T3C0.762
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T4C0.840
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T5C1.000
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T6C1.200
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T7C2.000
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T8C3.810
+%
+G90
+G05
+T1
+X68.58Y-134.62
+X71.02Y-90.02
+X71.16Y-118.44
+X77.49Y-126.7
+X93.36Y-113.91
+X94.62Y-84.62
+X105.41Y-88.9
+T2
+X54.686Y-110.701
+X54.686Y-111.615
+X60.528Y-108.618
+X60.528Y-109.532
+T3
+X65.571Y-60.655
+X65.815Y-78.421
+X109.954Y-134.02
+X110.465Y-78.421
+T4
+X65.45Y-139.87
+X65.45Y-142.43
+X66.73Y-141.15
+X68.01Y-139.87
+X68.01Y-142.43
+X89.28Y-82.06
+X89.28Y-84.62
+X90.56Y-83.34
+X91.84Y-82.06
+X91.84Y-84.62
+T5
+X80.21Y-153.13
+X82.75Y-153.13
+X85.29Y-153.13
+X87.83Y-153.13
+X90.37Y-153.13
+X92.91Y-153.13
+X95.45Y-153.13
+T6
+X65.606Y-134.02
+X65.815Y-122.769
+X109.919Y-60.655
+X110.465Y-122.769
+T7
+X54.13Y-54.63
+X54.13Y-100.56
+X54.13Y-146.48
+X120.87Y-54.63
+X120.87Y-100.56
+X120.87Y-146.48
+T8
+X60.97Y-53.96
+X60.97Y-146.16
+X115.12Y-53.96
+X115.12Y-146.16
+T0
+M30

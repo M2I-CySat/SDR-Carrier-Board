@@ -1,4 +1,4 @@
-#Cysat-1 Software Defined Radio Adapter Board
+# Cysat-1 Software Defined Radio Adapter Board
 
 The Breakout board contains the LNA and band pass filters as well as the SDR used on the satellite. This is a four layer board that has the LNA and RF paths on one side and the FPGA on the other side. A .1" pin header is used to break out the RX/TX lines and an Enable pin to be connected to the PC104 bus and to the rest of the on board electronics.
 

@@ -4,3 +4,13 @@ The Breakout board contains the LNA and band pass filters as well as the SDR use
 
 RF Cables are used to connect the signal from the antenna to the LNAs and a small RF cables is then used to connect the output from the LNA to the FPGA board. RF is present on the board (hence the four layer design) but RF on the FPGA board is only accessible via MCX connectors on the FPGA board itself.
 ![breakout board](https://github.com/M2I-CySat/SDR-Carrier-Board/raw/master/payload_board.png)
+
+### footprints
+
+This folder contains the footprint libraries for some of the SDR carrier board components
+that are used to translate the schematic to a PCB board design in KiCad.
+
+### schematics
+This folder contains the SDR carrier "breakout board" KiCad project. In this folder you will
+find all of the necessary library and other footprint libraries. This also contains all of 
+the necessary files for the KiCad project.

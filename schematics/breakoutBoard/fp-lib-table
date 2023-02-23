@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name mini-circuits)(type KiCad)(uri ${KIPRJMOD}/mini-circuits.pretty)(options "")(descr ""))
-  (lib (name RF_Mini-Circuits)(type KiCad)(uri ${KIPRJMOD}/RF_Mini-Circuits.pretty)(options "")(descr ""))
-  (lib (name Mounting_Holes)(type KiCad)(uri C:/GitHub/CySat-PayloadBoard/footprints/Mounting_Holes.pretty-master)(options "")(descr ""))
+  (lib (name breakoutBoard)(type KiCad)(uri "C:/Users/Leo/Documents/CySat/Carrier Board Test/schematics/breakoutBoard")(options "")(descr ""))
+  (lib (name w_conn_rf)(type Legacy)(uri "C:/Users/Leo/Documents/CySat/Carrier Board Test/footprints/mod_conn_rf/w_conn_rf.mod")(options "")(descr ""))
+  (lib (name w_conn_pretty)(type KiCad)(uri "C:/Users/Leo/Documents/CySat/Carrier Board Test/footprints/mod_conn_rf/w_conn_rf.pretty")(options "")(descr ""))
 )

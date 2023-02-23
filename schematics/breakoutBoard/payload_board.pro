@@ -1,4 +1,4 @@
-update=11/5/2021 6:23:47 PM
+update=12/5/2019 12:22:44 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=payload_board.net
-CopperLayerCount=4
+CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -38,8 +38,7 @@ MinMicroViaDiameter=0.1778
 MinMicroViaDrill=0.07619999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.1778
-TrackWidth2=0.355526
-TrackWidth3=0.508
+TrackWidth2=0.3
 ViaDiameter1=0.3556
 ViaDrill1=0.1016
 dPairWidth1=0.2
@@ -65,7 +64,7 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0
+SolderMaskClearance=0.2
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
@@ -74,13 +73,13 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=PGND
+Name=In1.Cu
 Type=0
-Enabled=1
+Enabled=0
 [pcbnew/Layer.In2.Cu]
-Name=RFGND
+Name=In2.Cu
 Type=0
-Enabled=1
+Enabled=0
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0

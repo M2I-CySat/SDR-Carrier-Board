@@ -15,6 +15,28 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+L payload_board-rescue:CONN_02X50 P2
+U 2 1 5CCBCC54
+P 4400 5150
+F 0 "P2" H 4400 6565 50  0000 C CNN
+F 1 "CONN_02X50" H 4400 6474 50  0000 C CNN
+F 2 "breakoutBoard:BERGSTAK_100_PIN1_RIGHT" H 4400 4400 50  0001 C CNN
+F 3 "" H 4400 4400 50  0000 C CNN
+	2    4400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L payload_board-rescue:CONN_02X50 P2
+U 1 1 5CC85911
+P 4350 2200
+F 0 "P2" H 4350 3615 50  0000 C CNN
+F 1 "CONN_02X50" H 4350 3524 50  0000 C CNN
+F 2 "breakoutBoard:BERGSTAK_100_PIN1_RIGHT" H 4350 1450 50  0001 C CNN
+F 3 "" H 4350 1450 50  0000 C CNN
+	1    4350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
 L payload_board-rescue:CONN_02X50 P3
 U 2 1 5CCBFD09
 P 7400 5200
@@ -58,107 +80,26 @@ F 3 "" H 9500 1450 50  0000 C CNN
 	1    9500 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 800  1300 800 
-Wire Wire Line
-	1300 800  1300 1150
-Wire Wire Line
-	1300 1150 1550 1150
 $Comp
-L payload_board-rescue:breakout_carrier U1
-U 1 1 5CC7A5E2
-P 1950 6950
-F 0 "U1" V 1485 6912 50  0001 C CNN
-F 1 "breakout_carrier" V 1577 6912 50  0000 C CNN
-F 2 "breakoutBoard:breakout_carrier" H 2050 7150 50  0001 C CNN
-F 3 "" H 2050 7150 50  0001 C CNN
-	1    1950 6950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2550 4150 2050 4150
-Wire Wire Line
-	2050 4250 2550 4250
-Connection ~ 2550 4250
-Wire Wire Line
-	2550 4250 2550 4150
-Wire Wire Line
-	2550 3550 2550 4150
-Connection ~ 2550 4150
-Wire Wire Line
-	4150 4250 3950 4250
-Wire Wire Line
-	3950 4250 3950 4350
-Wire Wire Line
-	3950 4350 4150 4350
-Wire Wire Line
-	2550 4350 3800 4350
-Wire Wire Line
-	2550 4350 2550 4250
-Connection ~ 3950 4350
-Wire Wire Line
-	4650 4250 4750 4250
-Wire Wire Line
-	4750 4250 4750 3650
-Wire Wire Line
-	4750 3650 3800 3650
-Wire Wire Line
-	3800 3650 3800 4350
-Connection ~ 3800 4350
-Wire Wire Line
-	3800 4350 3950 4350
-Wire Wire Line
-	4750 4250 4750 4350
-Wire Wire Line
-	4650 4350 4750 4350
-Connection ~ 4750 4250
-Wire Wire Line
-	4750 1500 4750 3650
-Wire Wire Line
-	4600 1500 4750 1500
-Connection ~ 4750 3650
-Wire Wire Line
-	1350 4250 1550 4250
-Wire Wire Line
-	1350 3550 2550 3550
-Wire Wire Line
-	1350 4150 1350 4250
-Wire Wire Line
-	1350 4150 1350 3550
-Connection ~ 1350 4150
-Wire Wire Line
-	1550 4150 1350 4150
-$Comp
-L payload_board-rescue:CONN_02X50 P2
-U 2 1 5CCBCC54
-P 4400 5150
-F 0 "P2" H 4400 6565 50  0000 C CNN
-F 1 "CONN_02X50" H 4400 6474 50  0000 C CNN
-F 2 "breakoutBoard:BERGSTAK_100_PIN1_RIGHT" H 4400 4400 50  0001 C CNN
-F 3 "" H 4400 4400 50  0000 C CNN
-	2    4400 5150
+L payload_board-rescue:B5B-EH-A RIB1
+U 1 1 5CCD2E38
+P 2800 7150
+F 0 "RIB1" H 3078 7079 50  0000 L CNN
+F 1 "B5B-EH-A" H 3078 6988 50  0000 L CNN
+F 2 "breakoutBoard:B5B-EH-A" H 3078 6897 50  0000 L CNN
+F 3 "" H 2750 7250 50  0001 C CNN
+	1    2800 7150
 	1    0    0    -1  
 $EndComp
 $Comp
-L payload_board-rescue:CONN_02X50 P1
-U 2 1 5CCB7DFD
-P 1800 5050
-F 0 "P1" H 1800 6465 50  0000 C CNN
-F 1 "CONN_02X50" H 1800 6374 50  0000 C CNN
-F 2 "breakoutBoard:BERGSTAK_100_PIN1_RIGHT" H 1800 4300 50  0001 C CNN
-F 3 "" H 1800 4300 50  0000 C CNN
-	2    1800 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L payload_board-rescue:CONN_02X50 P2
-U 1 1 5CC85911
-P 4350 2200
-F 0 "P2" H 4350 3615 50  0000 C CNN
-F 1 "CONN_02X50" H 4350 3524 50  0000 C CNN
-F 2 "breakoutBoard:BERGSTAK_100_PIN1_RIGHT" H 4350 1450 50  0001 C CNN
-F 3 "" H 4350 1450 50  0000 C CNN
-	1    4350 2200
+L payload_board-rescue:Molex-MMCX-SMD SMA1
+U 1 1 5CCDD268
+P 5100 7200
+F 0 "SMA1" H 5178 7063 50  0000 L CNN
+F 1 "Molex-MMCX-SMD" H 5100 7450 50  0001 C CNN
+F 2 "breakoutBoard:Molex MMCX SMD 50Ohm" H 5100 7200 50  0001 C CNN
+F 3 "" H 5100 7200 50  0001 C CNN
+	1    5100 7200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -173,189 +114,14 @@ F 3 "" H 1800 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L payload_board-rescue:Molex-MMCX-SMD SMA1
-U 1 1 5CCDD268
-P 4950 7100
-F 0 "SMA1" H 5028 6963 50  0000 L CNN
-F 1 "Molex-MMCX-SMD" H 4950 7350 50  0001 C CNN
-F 2 "breakoutBoard:Molex MMCX SMD 50Ohm" H 4950 7100 50  0001 C CNN
-F 3 "" H 4950 7100 50  0001 C CNN
-	1    4950 7100
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	1400 6400 1400 6050
-Wire Wire Line
-	1400 6050 1550 6050
-Wire Wire Line
-	2200 5150 2050 5150
-Wire Wire Line
-	2050 5250 2200 5250
-Wire Wire Line
-	2200 5250 2200 5150
-Wire Wire Line
-	1550 5250 1250 5250
-Wire Wire Line
-	1250 5250 1250 7550
-Wire Wire Line
-	1250 7550 3250 7550
-Wire Wire Line
-	3250 7550 3250 7050
-Wire Wire Line
-	3250 6400 3100 6400
-Wire Wire Line
-	3250 6400 3250 5350
-Wire Wire Line
-	3250 5350 3950 5350
-Connection ~ 3250 6400
-Wire Wire Line
-	4650 5250 5050 5250
-Wire Wire Line
-	5050 5250 5050 5350
-Wire Wire Line
-	5050 6600 3950 6600
-Wire Wire Line
-	3950 6600 3950 5350
-Connection ~ 3950 5350
-Wire Wire Line
-	3950 5350 4150 5350
-Wire Wire Line
-	4650 5350 5050 5350
-Connection ~ 5050 5350
-Wire Wire Line
-	5050 5350 5050 6250
-Wire Wire Line
-	4650 6250 5050 6250
-Connection ~ 5050 6250
-Wire Wire Line
-	5050 6250 5050 6600
-Wire Wire Line
-	7650 3300 7900 3300
-Wire Wire Line
-	7900 3300 7900 3750
-Wire Wire Line
-	7900 3750 6950 3750
-Wire Wire Line
-	5050 3750 5050 5250
-Connection ~ 5050 5250
-Wire Wire Line
-	7150 3300 6950 3300
-Connection ~ 6950 3750
-Wire Wire Line
-	6950 3750 5050 3750
-Wire Wire Line
-	7650 2500 7900 2500
-Wire Wire Line
-	7900 2500 7900 2600
-Connection ~ 7900 3300
-Wire Wire Line
-	7650 2600 7900 2600
-Connection ~ 7900 2600
-Wire Wire Line
-	7900 2600 7900 3300
-Wire Wire Line
-	7150 1300 6950 1300
-Wire Wire Line
-	6950 1300 6950 1400
-Connection ~ 6950 3300
-Wire Wire Line
-	6950 3300 6950 3750
-Wire Wire Line
-	7150 1400 6950 1400
-Connection ~ 6950 1400
-Wire Wire Line
-	6950 1400 6950 1500
-Wire Wire Line
-	7150 1500 6950 1500
-Connection ~ 6950 1500
-Wire Wire Line
-	6950 1500 6950 1600
-Wire Wire Line
-	7150 1600 6950 1600
-Connection ~ 6950 1600
-Wire Wire Line
-	6950 1600 6950 3300
-Wire Wire Line
-	2200 5150 3100 5150
-Wire Wire Line
-	3100 5150 3100 6400
-Connection ~ 2200 5150
-Connection ~ 3100 6400
-$Comp
-L payload_board-rescue:Molex-MMCX-SMD SMA2
-U 1 1 5CCBDC56
-P 4550 7100
-F 0 "SMA2" H 4628 6963 50  0000 L CNN
-F 1 "Molex-MMCX-SMD" H 4550 7350 50  0001 C CNN
-F 2 "breakoutBoard:Molex MMCX SMD 50Ohm" H 4550 7100 50  0001 C CNN
-F 3 "" H 4550 7100 50  0001 C CNN
-	1    4550 7100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4650 7100 4850 7100
-Wire Wire Line
-	4850 7200 4650 7200
-Wire Wire Line
-	9750 6300 10300 6300
-Wire Wire Line
-	10300 6300 10300 6700
-Wire Wire Line
-	9100 6850 9100 6400
-Wire Wire Line
-	9100 6400 9250 6400
-$Comp
-L payload_board-rescue:B5B-EH-A RIB?
-U 1 1 5CCD5DF0
-P 2800 7150
-F 0 "RIB?" H 3078 7104 50  0000 L CNN
-F 1 "B5B-EH-A" H 3078 7013 50  0000 L CNN
-F 2 "breakoutBoard:B5B-EH-A" H 3078 6922 50  0000 L CNN
-F 3 "" H 2750 7250 50  0001 C CNN
-	1    2800 7150
+L payload_board-rescue:CONN_02X50 P1
+U 2 1 5CCB7DFD
+P 1800 5050
+F 0 "P1" H 1800 6465 50  0000 C CNN
+F 1 "CONN_02X50" H 1800 6374 50  0000 C CNN
+F 2 "breakoutBoard:BERGSTAK_100_PIN1_RIGHT" H 1800 4300 50  0001 C CNN
+F 3 "" H 1800 4300 50  0000 C CNN
+	2    1800 5050
 	1    0    0    -1  
 $EndComp
-Connection ~ 2550 4350
-Wire Wire Line
-	2550 7050 2550 4350
-Wire Wire Line
-	1400 6400 3100 6400
-Wire Wire Line
-	2400 6700 2650 6700
-Wire Wire Line
-	2950 7050 3250 7050
-Connection ~ 3250 7050
-Wire Wire Line
-	3250 7050 3250 6400
-Wire Wire Line
-	2650 6700 2650 7050
-Connection ~ 2650 6700
-Wire Wire Line
-	2650 6700 10300 6700
-Wire Wire Line
-	2750 6850 2750 7050
-Wire Wire Line
-	2850 800  2850 6550
-Wire Wire Line
-	2150 7100 2400 7100
-Wire Wire Line
-	2400 7100 2400 6700
-Wire Wire Line
-	2150 6950 2250 6950
-Wire Wire Line
-	2250 6950 2250 6850
-Wire Wire Line
-	2250 6850 2750 6850
-Connection ~ 2750 6850
-Wire Wire Line
-	2150 6800 2350 6800
-Wire Wire Line
-	2350 6800 2350 6550
-Wire Wire Line
-	2350 6550 2850 6550
-Connection ~ 2850 6550
-Wire Wire Line
-	2850 6550 2850 7050
-Wire Wire Line
-	2750 6850 9100 6850
 $EndSCHEMATC
